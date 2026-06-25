@@ -1,0 +1,53 @@
+[
+  {
+    "id": "role-aast-tenured-faculty",
+    "title": "Tenured Faculty Member",
+    "organisation": "AAST (Arab League), Egypt",
+    "startYear": 2013,
+    "endYear": null,
+    "status": "current",
+    "source": "cv",
+    "public": true,
+    "notes": "ABET-accredited Mechanical Engineering courses."
+  },
+  {
+    "id": "role-tohoku-visiting-associate-professor",
+    "title": "Visiting Associate Professor",
+    "organisation": "Tohoku University, Japan",
+    "startYear": 2017,
+    "endYear": 2022,
+    "status": "historical",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "role-rccnb-senior-researcher-copi",
+    "title": "Senior Researcher & Co-Principal Investigator",
+    "organisation": "RCCNB, Alexandria University, Egypt",
+    "startYear": 2013,
+    "endYear": 2021,
+    "status": "historical",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "role-utm-visiting-research-fellow",
+    "title": "Visiting Research Fellow",
+    "organisation": "Universiti Teknologi Malaysia",
+    "startYear": 2013,
+    "endYear": 2014,
+    "status": "historical",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "role-utm-graduate-researcher",
+    "title": "Graduate Researcher / Research Officer",
+    "organisation": "Universiti Teknologi Malaysia",
+    "startYear": 2007,
+    "endYear": 2011,
+    "status": "historical",
+    "source": "cv",
+    "public": true
+  }
+]

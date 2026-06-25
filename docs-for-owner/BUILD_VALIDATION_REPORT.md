@@ -1,0 +1,10 @@
+# Build validation report
+
+- **built_at:** 2026-06-25
+- **repository:** khalid-saqr.github.io
+- **url:** https://khalid-saqr.github.io
+- **files:** 39
+- **publications:** 86
+- **doi_records:** 70
+- **errors:** []
+- **status:** pass

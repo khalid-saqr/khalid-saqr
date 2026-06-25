@@ -1,0 +1,51 @@
+{
+  "identitySentence": "Khalid Saqr is a researcher-builder working across computational fluid dynamics, biofluid mechanics, high-fidelity modelling and simulation, AI-assisted research systems, and knowledge engineering.",
+  "sourceSummary": {
+    "cvSource": "redacted extraction from CV_KSAQR2025.pdf",
+    "scopusBibtexExportDate": "25 June 2026",
+    "scopusRecordsParsed": 86,
+    "cleanDoiRecords": 70,
+    "publicationYearRange": [
+      2007,
+      2026
+    ]
+  },
+  "researchImpactFromCV": [
+    {
+      "label": "Stanford University World’s Top 2% Scientists List",
+      "value": "2022, 2023",
+      "status": "source-cv"
+    },
+    {
+      "label": "Google Scholar citations",
+      "value": "3,499",
+      "status": "source-cv-2025-stale-metric"
+    },
+    {
+      "label": "Google Scholar h-index",
+      "value": "35",
+      "status": "source-cv-2025-stale-metric"
+    },
+    {
+      "label": "International co-authorship",
+      "value": "58.8%",
+      "status": "source-cv-scopus-metric"
+    },
+    {
+      "label": "Scopus indexed publications in CV",
+      "value": "84",
+      "status": "source-cv-2025-stale-metric"
+    },
+    {
+      "label": "Scopus records parsed in repository substrate",
+      "value": "86",
+      "status": "scopus-export-2026-06-25"
+    },
+    {
+      "label": "Clean DOI records parsed",
+      "value": "70",
+      "status": "scopus-export-2026-06-25"
+    }
+  ],
+  "lastUpdated": "2026-06-25"
+}

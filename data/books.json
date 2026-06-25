@@ -1,0 +1,40 @@
+[
+  {
+    "id": "book-innovation-fast-forward-2023",
+    "title": "Innovation Fast Forward: Mining Human Ingenuity for Knowledge Capital",
+    "author": "K. M. Saqr",
+    "year": 2023,
+    "publisher": "KNOWDYN Laboratory, London",
+    "type": "book",
+    "public": true,
+    "evidence": [
+      "cv",
+      "amazon-author"
+    ]
+  },
+  {
+    "id": "book-knowledge-sentinels-2023",
+    "title": "Knowledge Sentinels: Intellectual Property Guide for Academics",
+    "author": "K. M. Saqr",
+    "year": 2023,
+    "publisher": "KNOWDYN, London",
+    "type": "book",
+    "public": true,
+    "evidence": [
+      "cv",
+      "amazon-author"
+    ]
+  },
+  {
+    "id": "book-turbulent-vortex-flames-2011",
+    "title": "Turbulent Vortex Flames: Aerodynamics and Thermochemistry of Turbulent Confined Vortex Flames",
+    "author": "K. M. Saqr",
+    "year": 2011,
+    "publisher": "LAP LAMBERT Academic Publishing, Saarbrücken",
+    "type": "book",
+    "public": true,
+    "evidence": [
+      "cv"
+    ]
+  }
+]

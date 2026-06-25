@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Khalid Saqr canonical public identity record"
+message: "If citing this public identity repository, cite the canonical URL."
+type: dataset
+authors:
+  - family-names: Saqr
+    given-names: Khalid
+url: "https://khalid-saqr.github.io/"
+date-released: "2026-06-25"
+abstract: "Canonical public identity repository for Khalid Saqr, researcher-builder."
+keywords:
+  - Khalid Saqr
+  - researcher-builder
+  - computational fluid dynamics
+  - biofluid mechanics
+  - knowledge engineering

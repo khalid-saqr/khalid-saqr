@@ -1,0 +1,42 @@
+[
+  {
+    "id": "evidence-cv",
+    "label": "Redacted CV extraction source",
+    "sourceType": "cv-extraction",
+    "path": "source/khalid_saqr_cv_extracted_2025_source_redacted.md",
+    "confidence": "source-provided",
+    "public": true
+  },
+  {
+    "id": "evidence-scopus-bibtex",
+    "label": "Scopus BibTeX export, 25 June 2026",
+    "sourceType": "bibtex-export",
+    "path": "source/scopus_export_Jun_25_2026.bib",
+    "confidence": "source-provided",
+    "public": true
+  },
+  {
+    "id": "evidence-scopus-publications",
+    "label": "Structured Scopus publication index",
+    "sourceType": "derived-data",
+    "path": "data/publications.json",
+    "confidence": "derived-from-bibtex",
+    "public": true
+  },
+  {
+    "id": "evidence-public-identifiers",
+    "label": "User-provided public identity profile links",
+    "sourceType": "external-profiles",
+    "path": "data/identifiers.json",
+    "confidence": "user-provided",
+    "public": true
+  },
+  {
+    "id": "evidence-doi-non-kolmogorov",
+    "label": "Non-Kolmogorov turbulence DOI records",
+    "sourceType": "doi-index",
+    "path": "data/doi-index.json",
+    "confidence": "derived-from-bibtex",
+    "public": true
+  }
+]

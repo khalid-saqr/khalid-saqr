@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Profile JSON",
+    "path": "data/profile.json",
+    "format": "JSON",
+    "audience": "LLMs, agents, search parsers",
+    "description": "Primary public profile and redaction policy."
+  },
+  {
+    "label": "Person schema",
+    "path": "data/person.schema.json",
+    "format": "JSON-LD",
+    "audience": "search engines and agents",
+    "description": "Schema.org Person / ProfilePage structured data."
+  },
+  {
+    "label": "Facts JSON",
+    "path": "data/facts.json",
+    "format": "JSON",
+    "audience": "LLMs and crawlers",
+    "description": "Compact fact layer derived from source substrate."
+  },
+  {
+    "label": "Claims JSON",
+    "path": "data/claims.json",
+    "format": "JSON",
+    "audience": "agents and evidence pipelines",
+    "description": "Typed public claims with status and evidence identifiers."
+  },
+  {
+    "label": "Evidence JSON",
+    "path": "data/evidence.json",
+    "format": "JSON",
+    "audience": "agents and validators",
+    "description": "Evidence source registry."
+  },
+  {
+    "label": "Publications JSON",
+    "path": "data/publications.json",
+    "format": "JSON",
+    "audience": "scholarly crawlers and LLMs",
+    "description": "Scopus-export-derived publication index."
+  },
+  {
+    "label": "DOI index",
+    "path": "data/doi-index.json",
+    "format": "JSON",
+    "audience": "scholarly crawlers and agents",
+    "description": "Clean DOI list derived from Scopus BibTeX."
+  },
+  {
+    "label": "Public CV Markdown",
+    "path": "content/cv.public.md",
+    "format": "Markdown",
+    "audience": "humans and LLM readers",
+    "description": "Redacted public CV digest."
+  },
+  {
+    "label": "BibTeX",
+    "path": "content/publications.bib",
+    "format": "BibTeX",
+    "audience": "citation managers and scholarly agents",
+    "description": "Publication bibliography derived from the supplied Scopus export."
+  },
+  {
+    "label": "LLMs guide",
+    "path": "llms.txt",
+    "format": "Markdown text",
+    "audience": "LLMs and retrieval agents",
+    "description": "Reading guide for LLMs, agents, and crawlers."
+  },
+  {
+    "label": "Sitemap",
+    "path": "sitemap.xml",
+    "format": "XML",
+    "audience": "search engines",
+    "description": "Crawlable URL manifest."
+  },
+  {
+    "label": "Robots policy",
+    "path": "robots.txt",
+    "format": "Text",
+    "audience": "crawlers",
+    "description": "Discovery-friendly crawler policy."
+  }
+]

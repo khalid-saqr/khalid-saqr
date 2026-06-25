@@ -1,0 +1,62 @@
+[
+  {
+    "id": "venture-thomas-kuhn-foundation",
+    "title": "Founder",
+    "organisation": "Thomas Kuhn Foundation, UK",
+    "startYear": 2025,
+    "endYear": null,
+    "status": "current",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "venture-knowdyn",
+    "title": "Founder",
+    "organisation": "KNOWDYN Ltd., London, UK",
+    "startYear": 2022,
+    "endYear": null,
+    "status": "current",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "venture-bio-cfd",
+    "title": "Co-founder",
+    "organisation": "Bio-CFD Inc. (USA) / Bio-CFD Foundation (UK)",
+    "startYear": 2019,
+    "endYear": 2023,
+    "status": "historical",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "venture-cfd-letters",
+    "title": "Publisher & Founder",
+    "organisation": "CFD Letters (ISSN 2180-1363)",
+    "startYear": 2008,
+    "endYear": 2021,
+    "status": "historical",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "advisory-sciencewerx",
+    "title": "Board Advisor",
+    "organisation": "ScienceWerx Inc., United States",
+    "startYear": 2024,
+    "endYear": null,
+    "status": "current",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "advisory-newchip",
+    "title": "Startup Mentor",
+    "organisation": "Newchip Accelerator, Texas, USA",
+    "startYear": 2022,
+    "endYear": 2023,
+    "status": "historical",
+    "source": "cv",
+    "public": true
+  }
+]

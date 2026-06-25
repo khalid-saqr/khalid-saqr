@@ -1,0 +1,46 @@
+[
+  {
+    "id": "editor-discover-fluid-mechanics",
+    "title": "Editor",
+    "journal": "Discover Fluid Mechanics",
+    "publisher": "Springer-Nature",
+    "startYear": 2025,
+    "endYear": null,
+    "status": "current",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "editor-fluids",
+    "title": "Editor",
+    "journal": "Fluids",
+    "publisher": "MDPI",
+    "startYear": 2021,
+    "endYear": null,
+    "status": "current",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "associate-editor-frontiers-me",
+    "title": "Associate Editor",
+    "journal": "Frontiers in Mechanical Engineering",
+    "publisher": "Frontiers",
+    "startYear": 2020,
+    "endYear": null,
+    "status": "current",
+    "source": "cv",
+    "public": true
+  },
+  {
+    "id": "eic-cfd-letters",
+    "title": "Editor-in-Chief",
+    "journal": "CFD Letters",
+    "publisher": "ISSR",
+    "startYear": 2009,
+    "endYear": 2021,
+    "status": "historical",
+    "source": "cv",
+    "public": true
+  }
+]

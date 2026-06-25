@@ -1,0 +1,32 @@
+[
+  {
+    "id": "project-xpeerd",
+    "title": "xPeerd",
+    "type": "research-system",
+    "status": "source-cv",
+    "summary": "Source CV names xPeerd among key contributions. Public details can be expanded later through approved project records.",
+    "domains": [
+      "AI-assisted research systems",
+      "knowledge engineering"
+    ],
+    "public": true,
+    "evidenceIds": [
+      "evidence-cv"
+    ]
+  },
+  {
+    "id": "project-canonical-identity-console",
+    "title": "Canonical identity console",
+    "type": "public-identity-infrastructure",
+    "status": "current-public-site",
+    "summary": "This GitHub Pages repository acts as a canonical public identity graph and machine-readable evidence bundle.",
+    "domains": [
+      "knowledge engineering",
+      "machine-readable identity"
+    ],
+    "public": true,
+    "evidenceIds": [
+      "evidence-public-identifiers"
+    ]
+  }
+]

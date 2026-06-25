@@ -1,0 +1,92 @@
+[
+  {
+    "id": "claim-researcher-builder",
+    "claim": "Khalid Saqr is a researcher-builder working across computational fluid dynamics, biofluid mechanics, high-fidelity modelling and simulation, AI-assisted research systems, and knowledge engineering.",
+    "category": "identity",
+    "status": "self-declared-and-source-supported",
+    "evidenceIds": [
+      "evidence-cv",
+      "evidence-public-identifiers"
+    ],
+    "public": true
+  },
+  {
+    "id": "claim-cfd-biofluid",
+    "claim": "Khalid Saqr’s work spans computational fluid dynamics, biofluid mechanics, neurovascular biomechanics, and high-fidelity modelling and simulation.",
+    "category": "research-domain",
+    "status": "source-supported",
+    "evidenceIds": [
+      "evidence-cv",
+      "evidence-scopus-publications"
+    ],
+    "public": true
+  },
+  {
+    "id": "claim-non-kolmogorov",
+    "claim": "Public CV source states that Khalid Saqr identified non-Kolmogorov turbulence in human circulation.",
+    "category": "scientific-contribution",
+    "status": "source-supported",
+    "evidenceIds": [
+      "evidence-cv",
+      "evidence-doi-non-kolmogorov"
+    ],
+    "public": true
+  },
+  {
+    "id": "claim-circle-of-willis",
+    "claim": "Public CV source states that Khalid Saqr developed the first high-fidelity computational model of the Circle of Willis.",
+    "category": "scientific-contribution",
+    "status": "source-supported",
+    "evidenceIds": [
+      "evidence-cv"
+    ],
+    "public": true
+  },
+  {
+    "id": "claim-founder-knowdyn",
+    "claim": "Khalid Saqr founded KNOWDYN Ltd., London, UK.",
+    "category": "builder-venture",
+    "status": "source-supported",
+    "evidenceIds": [
+      "evidence-cv"
+    ],
+    "public": true
+  },
+  {
+    "id": "claim-publications-scopus",
+    "claim": "The Scopus BibTeX export substrate contains 86 publication records spanning 2007–2026, including 70 clean DOI records.",
+    "category": "publication-index",
+    "status": "data-supported",
+    "evidenceIds": [
+      "evidence-scopus-bibtex"
+    ],
+    "public": true
+  },
+  {
+    "id": "placeholder-2026-role",
+    "claim": "June 2026 role, affiliation, venture, or public appointment update placeholder.",
+    "category": "placeholder",
+    "status": "placeholder",
+    "evidenceIds": [],
+    "public": false,
+    "replace_before_publication": true
+  },
+  {
+    "id": "placeholder-2026-publication",
+    "claim": "June 2026 publication, preprint, dataset, report, or scholarly output update placeholder.",
+    "category": "placeholder",
+    "status": "placeholder",
+    "evidenceIds": [],
+    "public": false,
+    "replace_before_publication": true
+  },
+  {
+    "id": "placeholder-2026-project",
+    "claim": "June 2026 public project, repository, product, or machine-readable evidence update placeholder.",
+    "category": "placeholder",
+    "status": "placeholder",
+    "evidenceIds": [],
+    "public": false,
+    "replace_before_publication": true
+  }
+]
