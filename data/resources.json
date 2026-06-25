@@ -1,86 +1,125 @@
 [
   {
-    "label": "Profile JSON",
-    "path": "data/profile.json",
+    "label": "Human page",
+    "path": "index.html",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/",
+    "format": "HTML",
+    "audience": [
+      "humans",
+      "search engines",
+      "retrieval systems"
+    ],
+    "description": "Single public autobiography and canonical record."
+  },
+  {
+    "label": "LLM guide",
+    "path": "llms.txt",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/llms.txt",
+    "format": "Markdown/plain text",
+    "audience": [
+      "LLMs",
+      "agents",
+      "retrieval systems"
+    ],
+    "description": "Context, identity, claims policy and resource map for LLMs and agents."
+  },
+  {
+    "label": "Facts",
+    "path": "data/facts.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/facts.json",
     "format": "JSON",
-    "audience": "LLMs, agents, search parsers",
-    "description": "Primary public profile and redaction policy."
+    "audience": [
+      "machines",
+      "agents"
+    ],
+    "description": "Canonical facts and redaction policy."
   },
   {
     "label": "Person schema",
     "path": "data/person.schema.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/person.schema.json",
     "format": "JSON-LD",
-    "audience": "search engines and agents",
-    "description": "Schema.org Person / ProfilePage structured data."
+    "audience": [
+      "search engines",
+      "knowledge graphs"
+    ],
+    "description": "Person/ProfilePage structured data."
   },
   {
-    "label": "Facts JSON",
-    "path": "data/facts.json",
+    "label": "Identity graph",
+    "path": "data/identity-graph.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/identity-graph.json",
     "format": "JSON",
-    "audience": "LLMs and crawlers",
-    "description": "Compact fact layer derived from source substrate."
+    "audience": [
+      "machines",
+      "agents"
+    ],
+    "description": "External identity and machine-resource graph."
   },
   {
-    "label": "Claims JSON",
+    "label": "Claims",
     "path": "data/claims.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/claims.json",
     "format": "JSON",
-    "audience": "agents and evidence pipelines",
-    "description": "Typed public claims with status and evidence identifiers."
+    "audience": [
+      "machines",
+      "agents"
+    ],
+    "description": "Claims with status and evidence pointers."
   },
   {
-    "label": "Evidence JSON",
+    "label": "Evidence",
     "path": "data/evidence.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/evidence.json",
     "format": "JSON",
-    "audience": "agents and validators",
-    "description": "Evidence source registry."
+    "audience": [
+      "machines",
+      "agents"
+    ],
+    "description": "Evidence ledger including every DOI and verifiable URL used in V2."
   },
   {
-    "label": "Publications JSON",
+    "label": "Publications",
     "path": "data/publications.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/publications.json",
     "format": "JSON",
-    "audience": "scholarly crawlers and LLMs",
-    "description": "Scopus-export-derived publication index."
+    "audience": [
+      "machines",
+      "scholarly crawlers"
+    ],
+    "description": "Publication records derived from Scopus BibTeX export."
   },
   {
     "label": "DOI index",
     "path": "data/doi-index.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json",
     "format": "JSON",
-    "audience": "scholarly crawlers and agents",
-    "description": "Clean DOI list derived from Scopus BibTeX."
+    "audience": [
+      "machines",
+      "scholarly crawlers"
+    ],
+    "description": "Clean DOI records with DOI URLs."
   },
   {
     "label": "Public CV Markdown",
     "path": "content/cv.public.md",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/content/cv.public.md",
     "format": "Markdown",
-    "audience": "humans and LLM readers",
-    "description": "Redacted public CV digest."
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Redacted public CV content."
   },
   {
-    "label": "BibTeX",
+    "label": "Publications BibTeX",
     "path": "content/publications.bib",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/content/publications.bib",
     "format": "BibTeX",
-    "audience": "citation managers and scholarly agents",
-    "description": "Publication bibliography derived from the supplied Scopus export."
-  },
-  {
-    "label": "LLMs guide",
-    "path": "llms.txt",
-    "format": "Markdown text",
-    "audience": "LLMs and retrieval agents",
-    "description": "Reading guide for LLMs, agents, and crawlers."
-  },
-  {
-    "label": "Sitemap",
-    "path": "sitemap.xml",
-    "format": "XML",
-    "audience": "search engines",
-    "description": "Crawlable URL manifest."
-  },
-  {
-    "label": "Robots policy",
-    "path": "robots.txt",
-    "format": "Text",
-    "audience": "crawlers",
-    "description": "Discovery-friendly crawler policy."
+    "audience": [
+      "scholarly tools",
+      "machines"
+    ],
+    "description": "BibTeX source copied from Scopus export."
   }
 ]

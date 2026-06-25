@@ -1,11 +1,10 @@
 {
-  "primary": "Khalid Saqr",
-  "alternateName": [
+  "primaryName": "Khalid Saqr",
+  "alternateNames": [
     "Khalid M. Saqr",
     "Khaled Saqr",
     "K. Saqr",
     "K.M. Saqr",
     "خالد صقر"
-  ],
-  "note": "Aliases are provided for entity disambiguation across publications, profiles, search engines, and LLM retrieval systems."
+  ]
 }

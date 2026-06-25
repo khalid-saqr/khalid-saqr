@@ -1,47 +1,12 @@
-[
-  {
-    "key": "orcid",
-    "url": "https://orcid.org/0000-0002-3058-2705",
-    "public": true
-  },
-  {
-    "key": "linkedin",
-    "url": "https://www.linkedin.com/in/khalidsaqr",
-    "public": true
-  },
-  {
-    "key": "researchgate",
-    "url": "https://www.researchgate.net/profile/Khalid-Saqr",
-    "public": true
-  },
-  {
-    "key": "google_scholar",
-    "url": "https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate",
-    "public": true
-  },
-  {
-    "key": "scopus",
-    "url": "https://www.scopus.com/authid/detail.uri?authorId=23567148300",
-    "public": true
-  },
-  {
-    "key": "amazon_author_us",
-    "url": "https://www.amazon.com/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=a0affd8d-2585-48fe-977f-fe881bc9f7df",
-    "public": true
-  },
-  {
-    "key": "amazon_author_jp",
-    "url": "https://www.amazon.co.jp/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=8878ef28-8b74-4983-8d0a-c6f949d86e1c",
-    "public": true
-  },
-  {
-    "key": "github",
-    "url": "https://github.com/khalid-saqr",
-    "public": true
-  },
-  {
-    "key": "github_pages",
-    "url": "https://khalid-saqr.github.io",
-    "public": true
-  }
-]
+{
+  "canonical_site": "https://khalid-saqr.github.io/khalid-saqr/",
+  "github": "https://github.com/khalid-saqr",
+  "orcid": "https://orcid.org/0000-0002-3058-2705",
+  "google_scholar": "https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate",
+  "scopus": "https://www.scopus.com/authid/detail.uri?authorId=23567148300",
+  "researchgate": "https://www.researchgate.net/profile/Khalid-Saqr",
+  "linkedin": "https://www.linkedin.com/in/khalidsaqr",
+  "amazon_author_store": "https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V",
+  "amazon_author_us_legacy": "https://www.amazon.com/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=a0affd8d-2585-48fe-977f-fe881bc9f7df",
+  "amazon_author_japan": "https://www.amazon.co.jp/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=8878ef28-8b74-4983-8d0a-c6f949d86e1c"
+}

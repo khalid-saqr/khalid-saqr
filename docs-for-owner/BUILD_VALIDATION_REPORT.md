@@ -1,10 +1,28 @@
-# Build validation report
+# Build Validation Report — V2
 
-- **built_at:** 2026-06-25
-- **repository:** khalid-saqr.github.io
-- **url:** https://khalid-saqr.github.io
-- **files:** 39
-- **publications:** 86
-- **doi_records:** 70
-- **errors:** []
-- **status:** pass
+Build date: 2026-06-25  
+Target URL: https://khalid-saqr.github.io/khalid-saqr/  
+Files in package: 35
+
+## Publication substrate
+
+- Scopus records parsed: 86
+- DOI-linked records: 70
+- Records without DOI: 16
+- Year range: 2007–2026
+
+## Validation results
+
+- JSON validation: passed
+- Privacy redaction check: passed
+- URL rebase check: passed
+- DOI count check: passed
+- Core file check: passed
+
+## Errors
+
+None.
+
+## Warnings
+
+None.

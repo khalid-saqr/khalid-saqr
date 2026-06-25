@@ -1,30 +1,25 @@
 {
   "primaryName": "Khalid Saqr",
   "displayRole": "Researcher-builder",
-  "canonicalUrl": "https://khalid-saqr.github.io",
-  "shortDescription": "Khalid Saqr is a researcher-builder working across computational fluid dynamics, biofluid mechanics, high-fidelity modelling and simulation, AI-assisted research systems, and knowledge engineering.",
-  "longDescription": "Khalid Saqr is a researcher-builder whose public work connects computational fluid dynamics, biofluid mechanics, neurovascular haemodynamics, high-fidelity modelling and simulation, AI-assisted research systems, scientific publishing, and knowledge engineering. This repository is designed as a canonical public identity and work record for humans, search engines, LLM chatbots, agents, and scholarly crawlers.",
-  "countryLevelLocation": "Egypt",
-  "contactPolicy": "No direct public contact is exposed on this site. Use linked external identity profiles where appropriate.",
-  "lastUpdated": "2026-06-25",
-  "sourcePolicy": "Derived from a redacted CV source, Scopus BibTeX export, and user-provided public identity links.",
-  "publicSafety": {
-    "noDirectEmail": true,
-    "noPhoneNumber": true,
-    "noHomeAddress": true,
-    "noDateOfBirth": true,
-    "noHeadshot": true
-  },
-  "domains": [
-    "Computational fluid dynamics",
-    "Biofluid mechanics",
-    "Neurovascular biomechanics",
-    "High-fidelity modelling and simulation",
-    "AI-assisted research systems",
-    "Knowledge engineering",
-    "Scientific publishing",
-    "Innovation strategy"
+  "canonicalUrl": "https://khalid-saqr.github.io/khalid-saqr/",
+  "basePath": "/khalid-saqr/",
+  "repository": "khalid-saqr/khalid-saqr",
+  "preferredSummary": "Khalid Saqr builds systems that make research, simulation, evidence, and intellectual property easier for machines to read and humans to trust.",
+  "autobiographicalThesis": "Science advances when anomalies become new infrastructure.",
+  "alternateNames": [
+    "Khalid M. Saqr",
+    "Khaled Saqr",
+    "K. Saqr",
+    "K.M. Saqr",
+    "خالد صقر"
   ],
-  "preferredCitation": "Khalid Saqr",
-  "machineSummary": "Public identity graph for Khalid Saqr, researcher-builder, with structured identifiers, claims, evidence, publications, books, roles, ventures, and machine-readable resources."
+  "redactionPolicy": {
+    "directEmail": "not published",
+    "phone": "not published",
+    "homeAddress": "not published",
+    "dateOfBirth": "not published",
+    "headshot": "not used",
+    "privateGitHubActivity": "not used"
+  },
+  "lastUpdated": "2026-06-25"
 }

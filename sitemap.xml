@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://khalid-saqr.github.io/</loc><lastmod>2026-06-25</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/llms.txt</loc><lastmod>2026-06-25</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/data/profile.json</loc><lastmod>2026-06-25</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/data/person.schema.json</loc><lastmod>2026-06-25</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/data/facts.json</loc><lastmod>2026-06-25</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/data/publications.json</loc><lastmod>2026-06-25</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/data/doi-index.json</loc><lastmod>2026-06-25</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/content/cv.public.md</loc><lastmod>2026-06-25</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/content/publications.bib</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/llms.txt</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/facts.json</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/person.schema.json</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/identity-graph.json</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/claims.json</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/evidence.json</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/publications.json</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/cv.public.md</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/publications.md</loc><lastmod>2026-06-25</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/publications.bib</loc><lastmod>2026-06-25</lastmod></url>
 </urlset>

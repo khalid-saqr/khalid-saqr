@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "khalid-saqr",
+      "label": "Khalid Saqr",
+      "type": "person",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/"
+    },
+    {
+      "id": "scholarly",
+      "label": "Scholarly record",
+      "type": "cluster"
+    },
+    {
+      "id": "builder",
+      "label": "Builder record",
+      "type": "cluster"
+    },
+    {
+      "id": "author",
+      "label": "Author record",
+      "type": "cluster"
+    },
+    {
+      "id": "machine",
+      "label": "Machine-readable record",
+      "type": "cluster"
+    },
+    {
+      "id": "orcid",
+      "label": "ORCID",
+      "type": "profile",
+      "url": "https://orcid.org/0000-0002-3058-2705"
+    },
+    {
+      "id": "scholar",
+      "label": "Google Scholar",
+      "type": "profile",
+      "url": "https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate"
+    },
+    {
+      "id": "scopus",
+      "label": "Scopus",
+      "type": "profile",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=23567148300"
+    },
+    {
+      "id": "researchgate",
+      "label": "ResearchGate",
+      "type": "profile",
+      "url": "https://www.researchgate.net/profile/Khalid-Saqr"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "type": "profile",
+      "url": "https://github.com/khalid-saqr"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "type": "profile",
+      "url": "https://www.linkedin.com/in/khalidsaqr"
+    },
+    {
+      "id": "amazon-store",
+      "label": "Amazon Author Store",
+      "type": "profile",
+      "url": "https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V"
+    },
+    {
+      "id": "llms",
+      "label": "llms.txt",
+      "type": "machine_file",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/llms.txt"
+    },
+    {
+      "id": "facts",
+      "label": "facts.json",
+      "type": "machine_file",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/data/facts.json"
+    },
+    {
+      "id": "publications",
+      "label": "publications.json",
+      "type": "machine_file",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/data/publications.json"
+    },
+    {
+      "id": "doi-index",
+      "label": "doi-index.json",
+      "type": "machine_file",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "khalid-saqr",
+      "target": "scholarly",
+      "relationship": "has_public_record"
+    },
+    {
+      "source": "khalid-saqr",
+      "target": "builder",
+      "relationship": "has_builder_record"
+    },
+    {
+      "source": "khalid-saqr",
+      "target": "author",
+      "relationship": "has_author_record"
+    },
+    {
+      "source": "khalid-saqr",
+      "target": "machine",
+      "relationship": "publishes_machine_record"
+    },
+    {
+      "source": "scholarly",
+      "target": "orcid",
+      "relationship": "same_as"
+    },
+    {
+      "source": "scholarly",
+      "target": "scholar",
+      "relationship": "same_as"
+    },
+    {
+      "source": "scholarly",
+      "target": "scopus",
+      "relationship": "same_as"
+    },
+    {
+      "source": "scholarly",
+      "target": "researchgate",
+      "relationship": "same_as"
+    },
+    {
+      "source": "builder",
+      "target": "github",
+      "relationship": "same_as"
+    },
+    {
+      "source": "builder",
+      "target": "linkedin",
+      "relationship": "same_as"
+    },
+    {
+      "source": "author",
+      "target": "amazon-store",
+      "relationship": "same_as"
+    },
+    {
+      "source": "machine",
+      "target": "llms",
+      "relationship": "described_by"
+    },
+    {
+      "source": "machine",
+      "target": "facts",
+      "relationship": "described_by"
+    },
+    {
+      "source": "machine",
+      "target": "publications",
+      "relationship": "described_by"
+    },
+    {
+      "source": "machine",
+      "target": "doi-index",
+      "relationship": "described_by"
+    }
+  ],
+  "lastUpdated": "2026-06-25"
+}

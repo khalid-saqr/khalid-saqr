@@ -1,9 +1,16 @@
-# Deployment guide
+# Deployment Guide — V2
 
-1. Create a public GitHub repository named `khalid-saqr.github.io` under the `khalid-saqr` account.
-2. Upload all files from this folder to the repository root.
-3. In GitHub, open Settings → Pages.
-4. Confirm deployment from the default branch root.
-5. Visit `https://khalid-saqr.github.io/` after GitHub Pages finishes publishing.
-6. Submit `https://khalid-saqr.github.io/sitemap.xml` to Google Search Console and Bing Webmaster Tools.
-7. Add `https://khalid-saqr.github.io/` to public profiles when ready: ORCID, GitHub profile, LinkedIn, ResearchGate, Amazon Author, and project READMEs.
+Target repository: `khalid-saqr/khalid-saqr`  
+Target GitHub Pages URL: `https://khalid-saqr.github.io/khalid-saqr/`
+
+## Browser-only deployment
+
+1. Create or open the GitHub repository `khalid-saqr/khalid-saqr`.
+2. Upload the contents of this ZIP package to the repository root.
+3. Commit the files.
+4. In repository Settings → Pages, deploy from the `main` branch and `/ root` folder.
+5. After deployment, open `https://khalid-saqr.github.io/khalid-saqr/`.
+
+## Critical URL rule
+
+This is a project Pages site. The correct public path is `/khalid-saqr/`, not the user root.

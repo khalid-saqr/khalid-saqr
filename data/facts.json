@@ -1,51 +1,42 @@
 {
-  "identitySentence": "Khalid Saqr is a researcher-builder working across computational fluid dynamics, biofluid mechanics, high-fidelity modelling and simulation, AI-assisted research systems, and knowledge engineering.",
-  "sourceSummary": {
-    "cvSource": "redacted extraction from CV_KSAQR2025.pdf",
-    "scopusBibtexExportDate": "25 June 2026",
-    "scopusRecordsParsed": 86,
-    "cleanDoiRecords": 70,
-    "publicationYearRange": [
-      2007,
-      2026
-    ]
+  "subject": "Khalid Saqr",
+  "canonicalUrl": "https://khalid-saqr.github.io/khalid-saqr/",
+  "coreIdentitySentence": "Khalid Saqr is a researcher-builder working across computational fluid dynamics, biofluid mechanics, high-fidelity modelling and simulation, AI-assisted research systems, and knowledge engineering.",
+  "plainLanguageSummary": "Khalid Saqr builds systems that turn scientific research, simulation output, evidence, and intellectual property into records machines can read and humans can trust.",
+  "publicationRecord": {
+    "source": "Scopus BibTeX export provided by the user",
+    "source_export_date": "2026-06-25",
+    "records": 86,
+    "doi_linked_records": 70,
+    "records_without_doi": 16,
+    "year_range": "2007–2026"
   },
-  "researchImpactFromCV": [
-    {
-      "label": "Stanford University World’s Top 2% Scientists List",
-      "value": "2022, 2023",
-      "status": "source-cv"
-    },
-    {
-      "label": "Google Scholar citations",
-      "value": "3,499",
-      "status": "source-cv-2025-stale-metric"
-    },
-    {
-      "label": "Google Scholar h-index",
-      "value": "35",
-      "status": "source-cv-2025-stale-metric"
-    },
-    {
-      "label": "International co-authorship",
-      "value": "58.8%",
-      "status": "source-cv-scopus-metric"
-    },
-    {
-      "label": "Scopus indexed publications in CV",
-      "value": "84",
-      "status": "source-cv-2025-stale-metric"
-    },
-    {
-      "label": "Scopus records parsed in repository substrate",
-      "value": "86",
-      "status": "scopus-export-2026-06-25"
-    },
-    {
-      "label": "Clean DOI records parsed",
-      "value": "70",
-      "status": "scopus-export-2026-06-25"
-    }
+  "publicIdentityAnchors": {
+    "canonical_site": "https://khalid-saqr.github.io/khalid-saqr/",
+    "github": "https://github.com/khalid-saqr",
+    "orcid": "https://orcid.org/0000-0002-3058-2705",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=23567148300",
+    "researchgate": "https://www.researchgate.net/profile/Khalid-Saqr",
+    "linkedin": "https://www.linkedin.com/in/khalidsaqr",
+    "amazon_author_store": "https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V",
+    "amazon_author_us_legacy": "https://www.amazon.com/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=a0affd8d-2585-48fe-977f-fe881bc9f7df",
+    "amazon_author_japan": "https://www.amazon.co.jp/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=8878ef28-8b74-4983-8d0a-c6f949d86e1c"
+  },
+  "identifiers": {
+    "orcid": "0000-0002-3058-2705",
+    "google_scholar_user": "uE0_tFwAAAAJ",
+    "scopus_author_id": "23567148300",
+    "amazon_author_id": "B0BQH9115V",
+    "github_username": "khalid-saqr"
+  },
+  "notPublic": [
+    "direct email",
+    "phone number",
+    "home address",
+    "date of birth",
+    "private GitHub activity",
+    "private repository names unless explicitly approved"
   ],
   "lastUpdated": "2026-06-25"
 }

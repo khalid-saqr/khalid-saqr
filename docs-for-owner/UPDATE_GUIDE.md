@@ -1,19 +1,15 @@
-# Update guide
+# Update Guide — V2
 
-This repository is designed to be content-adaptive. Update structured files first, then visible HTML if a new public section is necessary.
+Update structured content first, then update the human page only if the narrative changes.
 
-## Common updates
+## Update order
 
-- Add a publication: update `data/publications.json`, `data/doi-index.json`, and `content/publications.bib`.
-- Add a role: update `data/roles.json`.
-- Add a venture/advisory record: update `data/ventures.json`.
-- Add a claim: update `data/claims.json` and link it to `data/evidence.json`.
-- Add a machine resource: update `data/resources.json`.
+1. Add publication records to `content/publications.bib` and `data/publications.json`.
+2. Add clean DOI entries to `data/doi-index.json`.
+3. Add evidence records to `data/evidence.json`.
+4. Attach claims in `data/claims.json`.
+5. Update `data/facts.json`, `llms.txt`, `README.md`, and `index.html` only when the public summary changes.
 
-## Placeholder records
+## Public safety
 
-Three June 2026 placeholders are kept as non-public records. Replace them only when a public-safe update is ready.
-
-## Redaction rule
-
-Never add direct email, phone number, home address, date of birth, private GitHub activity, or private repository names to public files.
+Do not publish direct email, phone number, home address, date of birth, private repository names, or private GitHub activity.

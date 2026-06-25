@@ -1,58 +1,7 @@
-[
-  {
-    "label": "ORCID",
-    "propertyID": "ORCID",
-    "value": "0000-0002-3058-2705",
-    "url": "https://orcid.org/0000-0002-3058-2705",
-    "category": "scholarly"
-  },
-  {
-    "label": "Google Scholar",
-    "propertyID": "Google Scholar author ID",
-    "value": "uE0_tFwAAAAJ",
-    "url": "https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate",
-    "category": "scholarly"
-  },
-  {
-    "label": "Scopus",
-    "propertyID": "Scopus Author ID",
-    "value": "23567148300",
-    "url": "https://www.scopus.com/authid/detail.uri?authorId=23567148300",
-    "category": "scholarly"
-  },
-  {
-    "label": "ResearchGate",
-    "propertyID": "ResearchGate profile",
-    "value": "Khalid-Saqr",
-    "url": "https://www.researchgate.net/profile/Khalid-Saqr",
-    "category": "scholarly"
-  },
-  {
-    "label": "LinkedIn",
-    "propertyID": "LinkedIn profile",
-    "value": "khalidsaqr",
-    "url": "https://www.linkedin.com/in/khalidsaqr",
-    "category": "professional"
-  },
-  {
-    "label": "GitHub",
-    "propertyID": "GitHub username",
-    "value": "khalid-saqr",
-    "url": "https://github.com/khalid-saqr",
-    "category": "builder"
-  },
-  {
-    "label": "Amazon Author US",
-    "propertyID": "Amazon Author ASIN",
-    "value": "B0BQH9115V",
-    "url": "https://www.amazon.com/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=a0affd8d-2585-48fe-977f-fe881bc9f7df",
-    "category": "author"
-  },
-  {
-    "label": "Amazon Author Japan",
-    "propertyID": "Amazon Author ASIN",
-    "value": "B0BQH9115V",
-    "url": "https://www.amazon.co.jp/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=8878ef28-8b74-4983-8d0a-c6f949d86e1c",
-    "category": "author"
-  }
-]
+{
+  "orcid": "0000-0002-3058-2705",
+  "google_scholar_user": "uE0_tFwAAAAJ",
+  "scopus_author_id": "23567148300",
+  "amazon_author_id": "B0BQH9115V",
+  "github_username": "khalid-saqr"
+}
