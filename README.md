@@ -1,31 +1,33 @@
 # Khalid Saqr
 
-Science advances when anomalies become new infrastructure.
+A line of work moving from heat, vortices and turbulence to blood flow, vascular signalling, Bio-CFD and the problem of making scientific knowledge usable.
 
-I began with a hard physical anomaly: blood flow in the human circulation behaving in ways that standard assumptions could not fully explain. That work led me through computational fluid dynamics, neurovascular modelling, Bio-CFD, and eventually to a larger problem: most scientific knowledge is still trapped in papers, institutions, and expert memory.
+Canonical public biography: https://khalid-saqr.github.io/khalid-saqr/
 
-I now build systems that make research, simulation, evidence, and intellectual property easier for machines to read and humans to trust.
+## A line of work
 
-Canonical public record: [https://khalid-saqr.github.io/khalid-saqr/](https://khalid-saqr.github.io/khalid-saqr/)
+Khalid Saqr's public record is best read as a single line of inquiry rather than as a list of unrelated fields. The early studies dealt with mechanical and thermal systems: air-conditioning control, thermoelectric recovery, pipe heat transfer, swirl, confined vortices and transition. The later work entered combustion, detonation, turbulence, entropy, exergy, renewable-energy machines, urban flows, offshore structures and computational benchmarks.
 
-## What I build
+The decisive turn came when this modelling discipline was brought to the human circulation. Blood flow in large arteries and cerebral vessels became the difficult case: a living system where viscosity, pulsatility, wall motion, bifurcation, turbulence and biological response could not be separated cleanly. That turn led into neurovascular modelling, Bio-CFD, mechanobiology and the question of how a flow field becomes a biological signal.
 
-- **Evidence engines** that turn papers, citations, claims, and source records into structured knowledge.
-- **Simulation intelligence systems** that connect physics, CFD, biofluid mechanics, assumptions, and computational results.
-- **Research tools for AI agents** that need to inspect evidence, compare ideas, and reuse technical knowledge responsibly.
-- **Knowledge and IP infrastructure** that helps researchers and inventors protect, organise, and capture value from what they create.
-- **Public identity and provenance systems** that make people, work, and claims easier to verify.
+The present direction follows from the same habit of thought. Scientific knowledge itself is treated as another complex system: papers, citations, code, data, simulations, expert judgement and intellectual property are valuable only when they can be inspected, connected and reused.
 
-## Proof signals
+## The public biography
 
-- My scientific work started in fluid dynamics and moved into the complexity of human blood flow, turbulence, and neurovascular disease.
-- I contributed to research on non-Kolmogorov turbulence in human circulation and high-fidelity computational modelling of cerebral blood flow.
-- I co-founded Bio-CFD to connect engineering models with medical problems in neurovascular disease.
-- I founded KNOWDYN to work on knowledge systems, innovation infrastructure, research assets, and machine-readable intellectual property.
-- My public scholarly record is anchored by ORCID, Google Scholar, Scopus, ResearchGate, DOI records, books, and indexed publication metadata.
-- This V2 canonical record includes 86 Scopus-indexed publication records and 70 DOI-linked records.
+The GitHub Pages site is the canonical public biography and machine-readable record:
 
-## Public identity graph
+[Read the biography](https://khalid-saqr.github.io/khalid-saqr/)
+
+The page is written for both general readers and specialists. General readers can follow the story of a research programme moving from engineering systems to blood flow and knowledge systems. Specialists can follow the numbered references to the underlying studies.
+
+## Publication record represented on the site
+
+* 82 studies cited directly on the biography page.
+* 70 DOI-linked records in the indexed corpus.
+* Publication range represented: 2007–2026.
+* Main research line: computational fluid dynamics, turbulence, thermal-fluid systems, neurovascular haemodynamics, Bio-CFD, mechanobiology and scientific knowledge infrastructure.
+
+## Profile links
 
 [ORCID](https://orcid.org/0000-0002-3058-2705) ·
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate) ·
@@ -35,15 +37,24 @@ Canonical public record: [https://khalid-saqr.github.io/khalid-saqr/](https://kh
 [Amazon Author](https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V) ·
 [GitHub](https://github.com/khalid-saqr)
 
-## Machine-readable record
+## Machine-readable files
+
+These files describe the same public record in forms that search engines, crawlers and AI systems can read:
 
 [llms.txt](https://khalid-saqr.github.io/khalid-saqr/llms.txt) ·
 [facts.json](https://khalid-saqr.github.io/khalid-saqr/data/facts.json) ·
 [person.schema.json](https://khalid-saqr.github.io/khalid-saqr/data/person.schema.json) ·
+[identity-graph.json](https://khalid-saqr.github.io/khalid-saqr/data/identity-graph.json) ·
+[claims.json](https://khalid-saqr.github.io/khalid-saqr/data/claims.json) ·
+[evidence.json](https://khalid-saqr.github.io/khalid-saqr/data/evidence.json) ·
 [publications.json](https://khalid-saqr.github.io/khalid-saqr/data/publications.json) ·
-[DOI index](https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json) ·
-[evidence.json](https://khalid-saqr.github.io/khalid-saqr/data/evidence.json)
+[doi-index.json](https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json)
 
-## Current direction
+## Repository purpose
 
-The next scientific revolution will not come only from publishing more papers. It will come from making evidence, simulations, claims, code, data, and expert judgement easier to connect, verify, and reuse. My current work is focused on building that missing layer: scientific knowledge that machines can inspect and humans can act on.
+This repository hosts the public biography page at:
+
+https://khalid-saqr.github.io/khalid-saqr/
+
+The repository is designed to keep the human-readable biography, the publication record and the machine-readable identity files connected to the same public source.
+::: 
