@@ -1,16 +1,14 @@
 # Khalid Saqr
 
-A line of work moving from heat, vortices and turbulence to blood flow, vascular signalling, Bio-CFD and the problem of making scientific knowledge usable.
-
-Canonical public biography: https://khalid-saqr.github.io/khalid-saqr/
+A line of work moving from heat, vortices and turbulence to blood flow, vascular signalling, Bio-CFD and the problem of making scientific knowledge reproducible, usable, and investable. Visit the public biography: https://khalid-saqr.github.io/khalid-saqr/
 
 ## A line of work
 
-Khalid Saqr's public record is best read as a single line of inquiry rather than as a list of unrelated fields. The early studies dealt with mechanical and thermal systems: air-conditioning control, thermoelectric recovery, pipe heat transfer, swirl, confined vortices and transition. The later work entered combustion, detonation, turbulence, entropy, exergy, renewable-energy machines, urban flows, offshore structures and computational benchmarks.
+Khalid Saqr's early research dealt with mechanical and energy-conversion systems. The later work focused on combustion, detonation dynamics, turbulence, entropy, exergy, renewable-energy machines, urban flows, offshore structures and CFD realiability and benchmarks.
 
-The decisive turn came when this modelling discipline was brought to the human circulation. Blood flow in large arteries and cerebral vessels became the difficult case: a living system where viscosity, pulsatility, wall motion, bifurcation, turbulence and biological response could not be separated cleanly. That turn led into neurovascular modelling, Bio-CFD, mechanobiology and the question of how a flow field becomes a biological signal.
+The turn in Saqr's research from simulating energy conversion systems to biofluid mechanics started in 2012. Blood flow in large arteries and cerebral vessels became Saqr's favourite challenge ever since. A living system where viscosity, pulsatility, wall motion, bifurcation, turbulence and biological response could not be separated cleanly. That turn led into Saqr's seminal controbutions in neurovascular research, founding of Bio-CFD, mechanobiology work and the question of how a flow field becomes a biological signal.
 
-The present direction follows from the same habit of thought. Scientific knowledge itself is treated as another complex system: papers, citations, code, data, simulations, expert judgement and intellectual property are valuable only when they can be inspected, connected and reused.
+Saqr's present research follows from the same habit of seeking the most difficult challenges to solve. Scientific knowledge itself is treated as another complex system: papers, citations, code, data, simulations, expert judgement and intellectual property are valuable only when they can be inspected, connected and reused.
 
 ## The public biography
 
