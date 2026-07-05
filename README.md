@@ -76,21 +76,6 @@ These files describe the same public record in forms that search engines, crawle
 
 ---
 
-## Repository purpose
+## Khalid Saqr Biography URL
 
-This repository hosts the public biography page at:
-
-<https://khalid-saqr.github.io/khalid-saqr/>
-
-It keeps the human-readable biography, publication record, profile links, claim/evidence files and machine-readable identity files connected to the same public source.
-
----
-
-## Integrity notes
-
-- The repository is a static public biography and evidence-indexing layer.
-- The badges above are descriptive links, not certification claims.
-- The public biography should remain readable without JavaScript.
-- Machine-readable files should stay aligned with the biography, publication record and reference list.
-- Claims should remain traceable to publications, books, profile records or explicit public evidence.
-
+This repository hosts the public biography page at: <https://khalid-saqr.github.io/khalid-saqr/>
