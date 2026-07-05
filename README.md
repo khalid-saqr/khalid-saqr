@@ -15,30 +15,15 @@
   <a href="https://github.com/khalid-saqr"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-khalid--saqr-181717?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
-> **Public dossier. Open record. Human-readable biography with machine-readable evidence files.**  
-> This repository is not an official institutional, governmental, or intelligence-service record. It is a public biography repository maintained as an inspectable scholarly identity and evidence layer.
+> **Public information. Open record. Human-readable biography with machine-readable evidence files.**  
 
 ---
 
-## Cover snapshot
+# Research Profile
 
-| Field | Record |
-|---|---|
-| **Subject** | Khalid Saqr |
-| **Public file** | Biography, publication record, identity graph, claim/evidence index |
-| **Research arc** | Heat, vortices and turbulence â†’ blood flow, vascular signalling and Bio-CFD â†’ reproducible, usable and investable knowledge |
-| **Publication range represented** | 2007â€“2026 |
-| **Evidence base** | 82 studies cited on the biography page; five books represented in the extended public record |
-| **Primary technical line** | Computational fluid dynamics, turbulence, thermal-fluid systems, neurovascular haemodynamics, Bio-CFD, mechanobiology and scientific knowledge infrastructure |
-| **Canonical page** | <https://khalid-saqr.github.io/khalid-saqr/> |
+Khalid Saqr’s public research record begins with mechanical and energy-conversion systems: heat control, gas-turbine flow, combustion, detonation dynamics, vortices, turbulence, entropy, exergy, renewable-energy machines, urban flows, offshore structures, and CFD reliability.
 
----
-
-## A line of work
-
-Khalid Saqrâ€™s public research record begins with mechanical and energy-conversion systems: heat control, gas-turbine flow, combustion, detonation dynamics, vortices, turbulence, entropy, exergy, renewable-energy machines, urban flows, offshore structures, and CFD reliability.
-
-The turn from engineering flow systems to biofluid mechanics began after 2012. Blood flow in large arteries and cerebral vessels became the central challenge: a living flow in which viscosity, pulsatility, wall motion, bifurcation, turbulence and biological response cannot be separated cleanly. That turn led into Saqrâ€™s major neurovascular work, Bio-CFD, mechanobiology, physiological turbulence, and the question of how a calculated flow field becomes a biological signal.
+The turn from engineering flow systems to biofluid mechanics began after 2012. Blood flow in large arteries and cerebral vessels became the central challenge: a living flow in which viscosity, pulsatility, wall motion, bifurcation, turbulence and biological response cannot be separated cleanly. That turn led into Saqr’s major neurovascular work, Bio-CFD, mechanobiology, physiological turbulence, and the question of how a calculated flow field becomes a biological signal.
 
 The present line of work follows the same discipline into knowledge systems. Scientific knowledge itself is treated as another complex system: papers, citations, code, data, simulations, expert judgement and intellectual property become valuable only when they can be inspected, connected, reused and trusted.
 
@@ -61,19 +46,19 @@ The page is written for two kinds of reader. General readers can follow the stor
 | Studies cited directly on the biography page | 82 |
 | DOI-linked records in the indexed corpus | 70 |
 | Books represented in the extended public record | 5 |
-| Publication range represented | 2007â€“2026 |
+| Publication range represented | 2007–2026 |
 | Core research line | CFD, turbulence, thermal-fluid systems, neurovascular haemodynamics, Bio-CFD, mechanobiology, scientific knowledge infrastructure |
 
 ---
 
 ## Profile links
 
-[ORCID](https://orcid.org/0000-0002-3058-2705) Â·
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate) Â·
-[Scopus](https://www.scopus.com/authid/detail.uri?authorId=23567148300) Â·
-[ResearchGate](https://www.researchgate.net/profile/Khalid-Saqr) Â·
-[LinkedIn](https://www.linkedin.com/in/khalidsaqr) Â·
-[Amazon Author](https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V) Â·
+[ORCID](https://orcid.org/0000-0002-3058-2705) ·
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate) ·
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=23567148300) ·
+[ResearchGate](https://www.researchgate.net/profile/Khalid-Saqr) ·
+[LinkedIn](https://www.linkedin.com/in/khalidsaqr) ·
+[Amazon Author](https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V) ·
 [GitHub](https://github.com/khalid-saqr)
 
 ---
@@ -82,13 +67,13 @@ The page is written for two kinds of reader. General readers can follow the stor
 
 These files describe the same public record in forms that search engines, crawlers and AI systems can read:
 
-[llms.txt](https://khalid-saqr.github.io/khalid-saqr/llms.txt) Â·
-[facts.json](https://khalid-saqr.github.io/khalid-saqr/data/facts.json) Â·
-[person.schema.json](https://khalid-saqr.github.io/khalid-saqr/data/person.schema.json) Â·
-[identity-graph.json](https://khalid-saqr.github.io/khalid-saqr/data/identity-graph.json) Â·
-[claims.json](https://khalid-saqr.github.io/khalid-saqr/data/claims.json) Â·
-[evidence.json](https://khalid-saqr.github.io/khalid-saqr/data/evidence.json) Â·
-[publications.json](https://khalid-saqr.github.io/khalid-saqr/data/publications.json) Â·
+[llms.txt](https://khalid-saqr.github.io/khalid-saqr/llms.txt) ·
+[facts.json](https://khalid-saqr.github.io/khalid-saqr/data/facts.json) ·
+[person.schema.json](https://khalid-saqr.github.io/khalid-saqr/data/person.schema.json) ·
+[identity-graph.json](https://khalid-saqr.github.io/khalid-saqr/data/identity-graph.json) ·
+[claims.json](https://khalid-saqr.github.io/khalid-saqr/data/claims.json) ·
+[evidence.json](https://khalid-saqr.github.io/khalid-saqr/data/evidence.json) ·
+[publications.json](https://khalid-saqr.github.io/khalid-saqr/data/publications.json) ·
 [doi-index.json](https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json)
 
 ---
