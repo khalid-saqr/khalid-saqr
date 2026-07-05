@@ -15,8 +15,6 @@
   <a href="https://github.com/khalid-saqr"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-khalid--saqr-181717?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
-> **Public information. Open record. Human-readable biography with machine-readable evidence files.**  
-
 ---
 
 # Research Profile
