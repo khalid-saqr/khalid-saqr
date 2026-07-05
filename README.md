@@ -14,11 +14,10 @@
   <a href="https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json"><img alt="DOI-linked records" src="https://img.shields.io/badge/DOI%20records-70-334155?style=for-the-badge"></a>
   <a href="https://khalid-saqr.github.io/khalid-saqr/llms.txt"><img alt="Machine readable" src="https://img.shields.io/badge/machine--readable-llms.txt-475569?style=for-the-badge"></a>
 </p>
----
 
 # Research Profile
 
-Khalid Saqr’s public research record begins with mechanical and energy-conversion systems: heat control, gas-turbine flow, combustion, detonation dynamics, vortices, turbulence, entropy, exergy, renewable-energy machines, urban flows, offshore structures, and CFD reliability.
+Saqr's research profile begins with mechanical and energy-conversion systems: heat control, gas-turbine flow, combustion, detonation dynamics, vortices, turbulence, entropy, exergy, renewable-energy machines, urban flows, offshore structures, and CFD reliability.
 
 The turn from engineering flow systems to biofluid mechanics began after 2012. Blood flow in large arteries and cerebral vessels became the central challenge: a living flow in which viscosity, pulsatility, wall motion, bifurcation, turbulence and biological response cannot be separated cleanly. That turn led into Saqr’s major neurovascular work, Bio-CFD, mechanobiology, physiological turbulence, and the question of how a calculated flow field becomes a biological signal.
 
