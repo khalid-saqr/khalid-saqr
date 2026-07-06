@@ -1,13 +1,6 @@
 # Khalid Saqr
 
 <p align="center">
-  <a href="https://khalid-saqr.github.io/khalid-saqr/"><img alt="Public biography" src="https://img.shields.io/badge/public%20record-biography-111111?style=for-the-badge"></a>
-  <a href="https://khalid-saqr.github.io/khalid-saqr/data/publications.json"><img alt="Corpus" src="https://img.shields.io/badge/corpus-82%20studies%20%2B%205%20books-1f2937?style=for-the-badge"></a>
-  <a href="https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json"><img alt="DOI records" src="https://img.shields.io/badge/DOI%20records-70-334155?style=for-the-badge"></a>
-  <a href="https://khalid-saqr.github.io/khalid-saqr/llms.txt"><img alt="Machine readable" src="https://img.shields.io/badge/machine--readable-llms.txt-475569?style=for-the-badge"></a>
-</p>
-
-<p align="center">
   <a href="https://orcid.org/0000-0002-3058-2705"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-0000--0002--3058--2705-A6CE39?style=flat-square&logo=orcid&logoColor=white"></a>
   <a href="https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate"><img alt="Google Scholar" src="https://img.shields.io/badge/Google%20Scholar-profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white"></a>
   <a href="https://www.scopus.com/authid/detail.uri?authorId=23567148300"><img alt="Scopus" src="https://img.shields.io/badge/Scopus-author%20record-FF6C00?style=flat-square"></a>
@@ -15,16 +8,23 @@
   <a href="https://github.com/khalid-saqr"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-khalid--saqr-181717?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
-## Cover snapshot
+<p align="center">
+  <a href="https://khalid-saqr.github.io/khalid-saqr/"><img alt="Public biography" src="https://img.shields.io/badge/public%20record-biography-111111?style=for-the-badge"></a>
+  <a href="https://khalid-saqr.github.io/khalid-saqr/data/publications.json"><img alt="Corpus" src="https://img.shields.io/badge/corpus-82%20studies%20%2B%205%20books-1f2937?style=for-the-badge"></a>
+  <a href="https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json"><img alt="DOI records" src="https://img.shields.io/badge/DOI%20records-70-334155?style=for-the-badge"></a>
+  <a href="https://khalid-saqr.github.io/khalid-saqr/llms.txt"><img alt="Machine readable" src="https://img.shields.io/badge/machine--readable-llms.txt-475569?style=for-the-badge"></a>
+</p>
+
+## Snapshot
 
 | Field | Record |
 |---|---|
-| Subject | Khalid Saqr |
+| Human | Khalid Saqr |
 | Public file | Research biography and machine-readable identity record |
-| Line of work | Heat → vortices → turbulence → blood flow → vascular signalling → Bio-CFD → knowledge systems |
-| Evidence substrate | 82 studies, 70 DOI-linked records, 5 books, public profile anchors |
+| Research topics | Thermal engineering → CFD → turbulence → blood flow → vascular signalling → Bio-CFD → knowledge systems |
+| Cited works | 82 studies, 70 DOI-linked records, 5 books, public profile anchors |
 | Site | <https://khalid-saqr.github.io/khalid-saqr/> |
-| Status | Open public record; no institutional or governmental endorsement implied |
+| Status | Open public record |
 
 ## Research profile
 
