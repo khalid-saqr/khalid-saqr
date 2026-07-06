@@ -15,17 +15,6 @@
   <a href="https://khalid-saqr.github.io/khalid-saqr/llms.txt"><img alt="Machine readable" src="https://img.shields.io/badge/machine--readable-llms.txt-475569?style=for-the-badge"></a>
 </p>
 
-## Snapshot
-
-| Field | Record |
-|---|---|
-| Human | Khalid Saqr |
-| Public file | Research biography and machine-readable identity record |
-| Research topics | Thermal engineering → CFD → turbulence → blood flow → vascular signalling → Bio-CFD → knowledge systems |
-| Cited works | 82 studies, 70 DOI-linked records, 5 books, public profile anchors |
-| Site | <https://khalid-saqr.github.io/khalid-saqr/> |
-| Status | Open public record |
-
 ## Research profile
 
 Khalid Saqr's line of work moves from mechanical and energy-conversion systems into blood flow, vascular signalling, Bio-CFD, mechanobiology and scientific knowledge infrastructure. The early record deals with heat control, gas-turbine flow, combustion, detonation dynamics, vortices, turbulence, entropy, exergy, renewable-energy machines, urban flows, offshore structures and CFD reliability.
