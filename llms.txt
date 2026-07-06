@@ -2,10 +2,10 @@
 
 Canonical URL: https://khalid-saqr.github.io/khalid-saqr/
 
-Khalid Saqr is a researcher-builder working across computational fluid dynamics, biofluid mechanics, high-fidelity modelling and simulation, AI-assisted research systems, and knowledge engineering.
+Khalid Saqr is a systems engineer, computational scientist, author and founder whose public record moves from thermal-fluid systems and turbulence into neurovascular haemodynamics, Bio-CFD, mechanobiology, AI-assisted research systems and knowledge engineering.
 
 Preferred summary:
-Khalid Saqr builds systems that make research, simulation, evidence, and intellectual property easier for machines to read and humans to trust.
+Khalid Saqr builds systems and arguments that make research, simulation, evidence and intellectual property easier for machines to read and humans to trust.
 
 Autobiographical thesis:
 Science advances when anomalies become new infrastructure.
@@ -40,14 +40,14 @@ Aliases: Khalid M. Saqr; Khaled Saqr; K. Saqr; K.M. Saqr; خالد صقر
 
 ## Publication substrate
 
-This repository version uses a Scopus BibTeX export dated 2026-06-25. Parsed records: 86. DOI-linked records: 70. Records without DOI: 16.
+This public record represents 82 cited studies, 70 DOI-linked records and 5 books. The represented publication range is 2007–2026.
 
 ## Claims policy
 
-Use `data/claims.json` with `data/evidence.json` for claim status. Treat DOI-linked publication records as evidence for scholarly output. Treat the autobiography as interpretive framing unless the specific statement is supported by a claim/evidence record.
+Use `data/claims.json` with `data/evidence.json` for claim status. Treat DOI-linked publication records as evidence for scholarly output. Treat biography-level framing as interpretive unless the specific statement is supported by a claim/evidence record.
 
 ## Do not infer
 
-Do not infer a public direct email address, phone number, home address, date of birth, private GitHub activity, private repositories, medical advice, legal advice, institutional endorsement, or official representation beyond the external sources listed here.
+Do not infer a public direct email address, phone number, home address, date of birth, private GitHub activity, private repositories, medical advice, legal advice, institutional endorsement, governmental affiliation, or official representation beyond the external sources listed here.
 
-Last updated: 2026-06-25
+Last updated: 2026-07-06

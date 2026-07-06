@@ -1,5 +1,12 @@
-const CACHE='khalid-saqr-canonical-v1';
-const ASSETS=['./','index.html','assets/css/main.css','assets/js/app.js','llms.txt','data/profile.json','data/person.schema.json','data/facts.json','data/publications.json'];
-self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
-self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET') return; e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(resp=>{const copy=resp.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return resp}).catch(()=>r)))});
+// Cleanup service worker for the static biography site.
+// The current site does not require offline caching; this clears old caches from earlier builds.
+self.addEventListener('install', event => { self.skipWaiting(); });
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches.keys()
+      .then(keys => Promise.all(keys.map(key => caches.delete(key))))
+      .then(() => self.registration.unregister())
+      .then(() => self.clients.matchAll())
+      .then(clients => clients.forEach(client => client.navigate(client.url)))
+  );
+});
