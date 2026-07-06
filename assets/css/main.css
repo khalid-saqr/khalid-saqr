@@ -1,51 +1,53 @@
 /* ==========================================================================
-   Khalid Saqr Biography — Public Dossier CSS
-   Design spirit: cold-war archival biography / verified public record
-   Constraint: no HTML structure changes required
+   Khalid Saqr Biography — Paper File 
    Target file: assets/css/main.css
+   Design: black typewriter record, paper-file surface, sleek right-column cards
+   Constraint: works with the existing HTML structure
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   01. Design tokens
+   01. Tokens
    -------------------------------------------------------------------------- */
 
 :root {
   color-scheme: light;
 
-  --paper: #eee5d2;
-  --paper-deep: #ded2b8;
-  --paper-soft: #f7f1e3;
-  --ink: #151310;
-  --ink-2: #24211c;
-  --ink-soft: #4a4439;
-  --ink-muted: #756d5d;
-  --ink-faint: #9a907d;
+  --paper: #f3ead7;
+  --paper-2: #e8dcc4;
+  --paper-3: #fffaf0;
+  --paper-edge: #d0c1a5;
 
-  --file-black: #0d0d0c;
-  --file-grey: #2a2b2a;
-  --line: rgba(21, 19, 16, 0.18);
-  --line-strong: rgba(21, 19, 16, 0.34);
+  --ink: #080808;
+  --ink-2: #171717;
+  --ink-soft: #3d392f;
+  --ink-muted: #696251;
+  --ink-faint: #9b907b;
 
-  --red: #8c1f1f;
-  --red-soft: rgba(140, 31, 31, 0.11);
-  --red-line: rgba(140, 31, 31, 0.35);
+  --black: #050505;
+  --black-2: #111111;
+  --white: #fffdf7;
 
-  --olive: #51543f;
-  --steel: #4d5a64;
-  --gold: #a07832;
-  --cream: #fff9ec;
+  --line: rgba(8, 8, 8, 0.16);
+  --line-strong: rgba(8, 8, 8, 0.34);
 
-  --shadow: 0 30px 80px rgba(35, 28, 18, 0.28);
-  --shadow-soft: 0 12px 32px rgba(35, 28, 18, 0.16);
+  --red: #8f1d1d;
+  --red-soft: rgba(143, 29, 29, 0.08);
 
-  --font-serif:
-    Georgia,
-    Cambria,
-    "Times New Roman",
-    Times,
-    serif;
+  --blueprint: #26415a;
+  --olive: #55583f;
+  --stamp: #7c201c;
 
-  --font-sans:
+  --shadow: 0 26px 90px rgba(20, 16, 10, 0.24);
+  --shadow-card: 0 18px 50px rgba(20, 16, 10, 0.16);
+
+  --font-type:
+    "Courier Prime",
+    "IBM Plex Mono",
+    "Courier New",
+    Courier,
+    monospace;
+
+  --font-ui:
     Inter,
     ui-sans-serif,
     system-ui,
@@ -56,24 +58,17 @@
     Arial,
     sans-serif;
 
-  --font-mono:
-    "IBM Plex Mono",
-    "SFMono-Regular",
-    Consolas,
-    "Liberation Mono",
-    Menlo,
-    monospace;
+  --page-max: 1320px;
+  --text-max: 790px;
+  --aside-width: 340px;
 
-  --page-max: 1160px;
-  --text-max: 820px;
-
-  --radius-lg: 18px;
-  --radius-md: 10px;
-  --radius-sm: 6px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
 }
 
 /* --------------------------------------------------------------------------
-   02. Reset and base
+   02. Base
    -------------------------------------------------------------------------- */
 
 *,
@@ -86,9 +81,9 @@ html {
   min-height: 100%;
   scroll-behavior: smooth;
   background:
-    radial-gradient(circle at 18% 8%, rgba(160, 120, 50, 0.18), transparent 30rem),
-    radial-gradient(circle at 82% 16%, rgba(77, 90, 100, 0.13), transparent 28rem),
-    linear-gradient(180deg, var(--paper-soft), var(--paper));
+    radial-gradient(circle at 20% 10%, rgba(255, 255, 255, 0.7), transparent 32rem),
+    radial-gradient(circle at 88% 12%, rgba(38, 65, 90, 0.10), transparent 34rem),
+    linear-gradient(180deg, #efe4cf 0%, #dfd1b8 100%);
 }
 
 body {
@@ -96,30 +91,32 @@ body {
   margin: 0;
   color: var(--ink);
   background:
-    linear-gradient(rgba(21, 19, 16, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(21, 19, 16, 0.025) 1px, transparent 1px),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.22), rgba(160, 120, 50, 0.08));
-  background-size: 42px 42px, 42px 42px, auto;
-  font-family: var(--font-serif);
-  font-size: 18px;
+    linear-gradient(rgba(8, 8, 8, 0.026) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(8, 8, 8, 0.018) 1px, transparent 1px),
+    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.38), transparent 42rem);
+  background-size: 32px 32px, 32px 32px, auto;
+  font-family: var(--font-type);
+  font-size: 16.5px;
   line-height: 1.72;
+  letter-spacing: -0.01em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
+/* subtle paper grain */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.33;
+  opacity: 0.22;
   background:
     repeating-linear-gradient(
       0deg,
       transparent 0,
-      transparent 7px,
-      rgba(21, 19, 16, 0.018) 8px
+      transparent 6px,
+      rgba(8, 8, 8, 0.022) 7px
     );
   mix-blend-mode: multiply;
 }
@@ -131,210 +128,35 @@ body::after {
   z-index: 0;
   pointer-events: none;
   background:
-    linear-gradient(90deg, rgba(21, 19, 16, 0.10), transparent 16%, transparent 84%, rgba(21, 19, 16, 0.11)),
-    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.40), transparent 32rem);
+    linear-gradient(90deg, rgba(8, 8, 8, 0.10), transparent 14%, transparent 86%, rgba(8, 8, 8, 0.10)),
+    radial-gradient(circle at 50% -10%, rgba(255, 255, 255, 0.55), transparent 28rem);
 }
 
 ::selection {
-  color: var(--cream);
-  background: var(--red);
+  color: var(--white);
+  background: var(--black);
 }
 
 /* --------------------------------------------------------------------------
-   03. Page shell
-   -------------------------------------------------------------------------- */
-
-.page.layout {
-  position: relative;
-  z-index: 1;
-  width: min(var(--page-max), calc(100% - 32px));
-  margin: 0 auto;
-  padding: clamp(28px, 5vw, 72px) 0 clamp(64px, 8vw, 112px);
-}
-
-main#main {
-  position: relative;
-  counter-reset: dossier-section;
-  margin: 0 auto;
-  padding:
-    clamp(34px, 5vw, 68px)
-    clamp(20px, 4.4vw, 64px)
-    clamp(48px, 6vw, 78px);
-  overflow: hidden;
-  background:
-    linear-gradient(180deg, rgba(255, 252, 242, 0.88), rgba(238, 229, 210, 0.96)),
-    var(--paper-soft);
-  border: 1px solid rgba(21, 19, 16, 0.24);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
-}
-
-/* Top dossier strip */
-main#main::before {
-  content: "PUBLIC BIOGRAPHIC ARCHIVE · VERIFIED RESEARCH RECORD · OPEN FILE";
-  display: block;
-  width: fit-content;
-  max-width: 100%;
-  margin: 0 0 clamp(28px, 4vw, 46px);
-  padding: 0.46rem 0.72rem;
-  color: var(--cream);
-  background: var(--file-black);
-  border: 1px solid rgba(21, 19, 16, 0.5);
-  border-radius: 999px;
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 800;
-  line-height: 1.3;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
-  box-shadow: 0 4px 0 rgba(21, 19, 16, 0.12);
-}
-
-/* Right archival rule */
-main#main::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: clamp(18px, 4vw, 64px);
-  width: 1px;
-  height: 100%;
-  pointer-events: none;
-  background:
-    linear-gradient(
-      180deg,
-      transparent,
-      rgba(140, 31, 31, 0.50) 6%,
-      rgba(21, 19, 16, 0.15) 38%,
-      transparent 72%
-    );
-}
-
-/* --------------------------------------------------------------------------
-   04. Typography
-   -------------------------------------------------------------------------- */
-
-h1,
-h2,
-h3 {
-  margin: 0;
-  color: var(--ink);
-  text-wrap: balance;
-}
-
-h1 {
-  font-family: var(--font-sans);
-  font-size: clamp(2.8rem, 7vw, 5.8rem);
-  font-weight: 820;
-  line-height: 0.96;
-  letter-spacing: -0.06em;
-}
-
-h2 {
-  position: relative;
-  margin-bottom: 1rem;
-  padding: 0 0 0.72rem;
-  border-bottom: 1px solid var(--line);
-  font-family: var(--font-sans);
-  font-size: clamp(1.34rem, 2.6vw, 2.06rem);
-  font-weight: 790;
-  line-height: 1.08;
-  letter-spacing: -0.035em;
-}
-
-/* Generated section label */
-h2::before {
-  content: "FILE " counter(dossier-section, decimal-leading-zero);
-  display: block;
-  width: fit-content;
-  margin-bottom: 0.58rem;
-  padding: 0.22rem 0.42rem;
-  color: var(--red);
-  background: var(--red-soft);
-  border: 1px solid var(--red-line);
-  border-radius: 4px;
-  font-family: var(--font-mono);
-  font-size: 0.62rem;
-  font-weight: 850;
-  line-height: 1.1;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-/* Machine-friendly anchor label */
-h2::after {
-  content: "#" attr(id);
-  display: inline-block;
-  margin-left: 0.65rem;
-  color: var(--ink-faint);
-  font-family: var(--font-mono);
-  font-size: 0.62rem;
-  font-weight: 650;
-  letter-spacing: 0.04em;
-  vertical-align: middle;
-}
-
-p {
-  max-width: var(--text-max);
-  margin: 0 0 1.18rem;
-  color: var(--ink-soft);
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-p.lead {
-  max-width: 930px;
-  margin-bottom: 1.25rem;
-  color: var(--ink);
-  font-size: clamp(1.32rem, 2.2vw, 1.72rem);
-  line-height: 1.5;
-  letter-spacing: -0.018em;
-}
-
-em {
-  color: var(--ink-2);
-  font-style: italic;
-}
-
-strong,
-b {
-  color: var(--ink);
-  font-weight: 760;
-}
-
-code,
-kbd,
-samp {
-  font-family: var(--font-mono);
-}
-
-hr {
-  height: 1px;
-  margin: 2.4rem 0;
-  border: 0;
-  background: var(--line);
-}
-
-/* --------------------------------------------------------------------------
-   05. Links
+   03. Links and accessibility
    -------------------------------------------------------------------------- */
 
 a {
-  color: #6d1919;
+  color: var(--black);
   text-decoration: underline;
-  text-decoration-color: rgba(109, 25, 25, 0.36);
+  text-decoration-color: rgba(8, 8, 8, 0.35);
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.19em;
+  text-underline-offset: 0.2em;
   transition:
     color 160ms ease,
     background-color 160ms ease,
     border-color 160ms ease,
-    text-decoration-color 160ms ease;
+    text-decoration-color 160ms ease,
+    transform 160ms ease;
 }
 
 a:hover {
-  color: #1b1212;
+  color: var(--red);
   text-decoration-color: var(--red);
 }
 
@@ -344,74 +166,312 @@ a:focus-visible {
   border-radius: 4px;
 }
 
+.skip {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.8rem 1rem;
+  color: var(--white);
+  background: var(--black);
+}
+
+.skip:focus {
+  left: 1rem;
+  top: 1rem;
+}
+
 /* --------------------------------------------------------------------------
-   06. Sections
+   04. Hero
    -------------------------------------------------------------------------- */
 
-section {
+.hero {
+  position: relative;
+  z-index: 1;
+  padding: clamp(28px, 5vw, 68px) 0 0;
+}
+
+.page {
+  width: min(var(--page-max), calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.hero .page {
+  position: relative;
+  padding:
+    clamp(24px, 4vw, 46px)
+    clamp(20px, 4vw, 46px);
+  color: var(--white);
+  background:
+    linear-gradient(135deg, #050505 0%, #121212 62%, #080808 100%);
+  border: 1px solid rgba(8, 8, 8, 0.65);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero .page::before {
+  content: "PUBLIC FILE · BIOGRAPHIC ARCHIVE · VERIFIED REFERENCES";
+  display: inline-flex;
+  max-width: 100%;
+  margin-bottom: clamp(18px, 3vw, 30px);
+  padding: 0.48rem 0.72rem;
+  color: #f7ead0;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  font-family: var(--font-type);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero .page::after {
+  content: "";
+  position: absolute;
+  right: -80px;
+  top: -80px;
+  width: 260px;
+  height: 260px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, transparent 0 42%, rgba(255, 255, 255, 0.05) 43% 44%, transparent 45%),
+    radial-gradient(circle, rgba(255, 255, 255, 0.07), transparent 58%);
+}
+
+.kicker {
+  margin: 0 0 0.8rem;
+  color: #dcccae;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  color: var(--white);
+  font-family: var(--font-type);
+  font-size: clamp(2.6rem, 8vw, 6.2rem);
+  font-weight: 900;
+  line-height: 0.92;
+  letter-spacing: -0.09em;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  max-width: 840px;
+  margin: clamp(16px, 3vw, 24px) 0 0;
+  color: #eee1c7;
+  font-size: clamp(1rem, 1.75vw, 1.28rem);
+  line-height: 1.58;
+}
+
+.canonical {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: clamp(18px, 3vw, 28px);
+}
+
+.canonical a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0.62rem 0.78rem;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.085);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+.canonical a::before {
+  content: "■";
+  margin-right: 0.48rem;
+  color: #c5b28e;
+  font-size: 0.58rem;
+}
+
+.canonical a:hover {
+  background: var(--white);
+  color: var(--black);
+  border-color: var(--white);
+}
+
+/* --------------------------------------------------------------------------
+   05. Main paper layout with fluid right column
+   -------------------------------------------------------------------------- */
+
+.page.layout {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, var(--aside-width));
+  gap: clamp(18px, 3vw, 34px);
+  align-items: start;
+  width: min(var(--page-max), calc(100% - 32px));
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 44px) 0 clamp(64px, 7vw, 100px);
+}
+
+main#main {
+  position: relative;
+  counter-reset: dossier-section;
+  min-width: 0;
+  padding:
+    clamp(28px, 4vw, 56px)
+    clamp(20px, 4vw, 56px)
+    clamp(42px, 5vw, 70px);
+  background:
+    linear-gradient(180deg, rgba(255, 250, 240, 0.96), rgba(242, 232, 211, 0.96)),
+    var(--paper);
+  border: 1px solid var(--paper-edge);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+/* paper file top label */
+main#main::before {
+  content: "TYPEWRITTEN PUBLIC BIOGRAPHY";
+  display: inline-flex;
+  margin-bottom: clamp(24px, 4vw, 40px);
+  padding: 0.46rem 0.66rem;
+  color: var(--white);
+  background: var(--black);
+  border-radius: 5px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+main#main::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(143, 29, 29, 0.18), transparent 1px) 42px 0 / 1px 100% no-repeat,
+    linear-gradient(180deg, transparent, rgba(8, 8, 8, 0.03));
+}
+
+/* --------------------------------------------------------------------------
+   06. Typography inside biography
+   -------------------------------------------------------------------------- */
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--ink);
+}
+
+h2 {
+  position: relative;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.72rem;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-type);
+  font-size: clamp(1.28rem, 2.2vw, 1.84rem);
+  font-weight: 900;
+  line-height: 1.16;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+}
+
+main#main > section {
   position: relative;
   counter-increment: dossier-section;
   max-width: var(--text-max);
-  margin: 0;
-  padding: clamp(30px, 4.8vw, 54px) 0;
+  padding: clamp(30px, 4.5vw, 54px) 0;
   border-top: 1px solid var(--line);
 }
 
-section:first-of-type {
+main#main > section:first-of-type {
   padding-top: 0;
   border-top: 0;
 }
 
-section:first-of-type h2::before {
-  content: "COVER SHEET";
+main#main > section:not(:first-of-type)::before {
+  content: "§" counter(dossier-section, decimal-leading-zero);
+  display: inline-flex;
+  margin-bottom: 0.7rem;
+  padding: 0.2rem 0.42rem;
+  color: var(--black);
+  background: rgba(8, 8, 8, 0.06);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
 }
 
-section[aria-labelledby="overview"] {
-  max-width: 950px;
+main#main h2::after {
+  content: "#" attr(id);
+  display: inline-block;
+  margin-left: 0.6rem;
+  color: var(--ink-faint);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  vertical-align: middle;
 }
 
-section[aria-labelledby="overview"] p.lead {
-  position: relative;
-  padding: clamp(18px, 3vw, 28px);
+p {
+  max-width: var(--text-max);
+  margin: 0 0 1.15rem;
+  color: var(--ink-soft);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+p.lead {
+  max-width: 880px;
+  margin-bottom: 1.2rem;
+  padding:
+    clamp(18px, 2.8vw, 28px)
+    clamp(18px, 3vw, 32px);
+  color: var(--ink);
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.54), rgba(222, 210, 184, 0.28)),
-    rgba(255, 255, 255, 0.28);
-  border: 1px solid rgba(21, 19, 16, 0.18);
-  border-left: 5px solid var(--file-black);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.58), rgba(8, 8, 8, 0.018));
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--black);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-soft);
+  box-shadow: var(--shadow-card);
+  font-size: clamp(1.08rem, 1.7vw, 1.32rem);
+  line-height: 1.62;
+  letter-spacing: -0.03em;
 }
 
-section[aria-labelledby="overview"] p.lead::before {
-  content: "SUBJECT SUMMARY";
-  display: block;
-  margin-bottom: 0.8rem;
-  color: var(--red);
-  font-family: var(--font-mono);
-  font-size: 0.66rem;
-  font-weight: 850;
-  letter-spacing: 0.14em;
+em {
+  color: var(--ink);
+  font-style: italic;
 }
 
-/* Thin left file markers */
-section:not(:first-of-type)::before {
-  content: "";
-  position: absolute;
-  top: -1px;
-  left: 0;
-  width: 86px;
-  height: 1px;
-  background: linear-gradient(90deg, var(--red), transparent);
+strong,
+b {
+  color: var(--ink);
+  font-weight: 900;
 }
 
 /* --------------------------------------------------------------------------
-   07. Claim-level citations
+   07. Citations
    -------------------------------------------------------------------------- */
 
 .refmark {
   margin-left: 0.12em;
   white-space: nowrap;
-  font-family: var(--font-mono);
+  font-family: var(--font-type);
   font-size: 0.62em;
   line-height: 0;
   vertical-align: super;
@@ -421,50 +481,46 @@ section:not(:first-of-type)::before {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 1.4em;
-  height: 1.4em;
+  min-width: 1.38em;
+  height: 1.38em;
   padding: 0 0.22em;
-  color: var(--cream);
-  background: var(--file-black);
-  border: 1px solid rgba(21, 19, 16, 0.60);
+  color: var(--white);
+  background: var(--black);
+  border: 1px solid var(--black);
   border-radius: 999px;
   text-decoration: none;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.18) inset;
 }
 
 .refmark a:hover {
-  color: var(--cream);
+  color: var(--white);
   background: var(--red);
   border-color: var(--red);
 }
 
 /* --------------------------------------------------------------------------
-   08. Machine-readable file registry
+   08. Machine-readable files
    -------------------------------------------------------------------------- */
 
 .machine-block {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 0.72rem;
-  margin-top: 1.4rem;
+  margin-top: 1.35rem;
   padding: clamp(16px, 3vw, 24px);
   background:
-    linear-gradient(180deg, rgba(21, 19, 16, 0.05), rgba(21, 19, 16, 0.025)),
-    rgba(255, 255, 255, 0.35);
-  border: 1px solid rgba(21, 19, 16, 0.18);
+    linear-gradient(180deg, rgba(8, 8, 8, 0.035), rgba(255, 255, 255, 0.32));
+  border: 1px solid var(--line);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-soft);
+  box-shadow: var(--shadow-card);
 }
 
 .machine-block::before {
-  content: "INDEXED MACHINE-READABLE FILES";
+  content: "MACHINE-READABLE EVIDENCE FILES";
   grid-column: 1 / -1;
-  margin-bottom: 0.22rem;
-  color: var(--file-black);
-  font-family: var(--font-mono);
-  font-size: 0.66rem;
-  font-weight: 850;
-  letter-spacing: 0.13em;
+  color: var(--black);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
 }
 
@@ -472,50 +528,234 @@ section:not(:first-of-type)::before {
   display: flex;
   align-items: center;
   min-height: 42px;
-  padding: 0.72rem 0.82rem;
-  color: var(--ink-2);
-  background: rgba(255, 249, 236, 0.58);
-  border: 1px solid rgba(21, 19, 16, 0.14);
+  padding: 0.74rem 0.82rem;
+  color: var(--ink);
+  background: rgba(255, 253, 247, 0.68);
+  border: 1px solid var(--line);
   border-radius: var(--radius-sm);
-  font-family: var(--font-mono);
   font-size: 0.82rem;
-  line-height: 1.28;
+  line-height: 1.25;
   text-decoration: none;
 }
 
 .machine-block a::before {
-  content: "▸";
-  margin-right: 0.55rem;
+  content: "▹";
+  margin-right: 0.52rem;
   color: var(--red);
-  font-size: 0.78rem;
+  font-weight: 900;
 }
 
 .machine-block a:hover {
-  color: var(--cream);
-  background: var(--file-black);
-  border-color: var(--file-black);
+  color: var(--white);
+  background: var(--black);
+  border-color: var(--black);
 }
 
 .machine-block a:hover::before {
-  color: var(--cream);
+  color: var(--white);
 }
 
 /* --------------------------------------------------------------------------
-   09. Reference list
+   09. Right-column cards
+   -------------------------------------------------------------------------- */
+
+aside {
+  position: sticky;
+  top: 22px;
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+
+aside section {
+  position: relative;
+  padding: 1.05rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(238, 226, 201, 0.72)),
+    var(--paper-3);
+  border: 1px solid rgba(8, 8, 8, 0.15);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+aside section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(8, 8, 8, 0.06), transparent 1px) 0 0 / 16px 16px,
+    linear-gradient(180deg, rgba(255, 255, 255, 0.28), transparent 55%);
+}
+
+aside section::after {
+  content: "";
+  position: absolute;
+  left: 1.05rem;
+  right: 1.05rem;
+  top: 0;
+  height: 4px;
+  background: var(--black);
+  border-radius: 0 0 999px 999px;
+}
+
+aside h2 {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 0.9rem;
+  padding: 0 0 0.7rem;
+  color: var(--black);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.92rem;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Visually rename "Profile links" to "On the web" without touching HTML */
+aside section:nth-child(2) h2 {
+  font-size: 0;
+}
+
+aside section:nth-child(2) h2::before {
+  content: "On the web";
+  font-size: 0.92rem;
+}
+
+/* At a glance card */
+.side-list {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.72rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.side-list li {
+  margin: 0;
+  padding: 0.72rem 0.78rem;
+  color: var(--ink-soft);
+  background: rgba(255, 253, 247, 0.58);
+  border: 1px solid rgba(8, 8, 8, 0.10);
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  line-height: 1.42;
+}
+
+.side-list strong {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+  color: var(--black);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* On the web card */
+.identity-links {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.55rem;
+}
+
+.identity-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 40px;
+  padding: 0.68rem 0.78rem;
+  color: var(--ink);
+  background: rgba(255, 253, 247, 0.66);
+  border: 1px solid rgba(8, 8, 8, 0.12);
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.identity-links a::after {
+  content: "↗";
+  margin-left: 0.8rem;
+  color: var(--ink-muted);
+  font-weight: 900;
+}
+
+.identity-links a:hover {
+  color: var(--white);
+  background: var(--black);
+  border-color: var(--black);
+  transform: translateY(-1px);
+}
+
+.identity-links a:hover::after {
+  color: var(--white);
+}
+
+/* Research impact card */
+.facts {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+}
+
+.fact {
+  display: grid;
+  gap: 0.14rem;
+  padding: 0.74rem 0.78rem;
+  background: rgba(255, 253, 247, 0.66);
+  border: 1px solid rgba(8, 8, 8, 0.12);
+  border-radius: var(--radius-sm);
+}
+
+.fact strong {
+  display: block;
+  color: var(--black);
+  font-size: 1.05rem;
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -0.06em;
+}
+
+.fact span {
+  color: var(--ink-muted);
+  font-size: 0.72rem;
+  line-height: 1.32;
+}
+
+/* subtle emphasis per card */
+aside section:nth-child(1)::after {
+  background: var(--black);
+}
+
+aside section:nth-child(2)::after {
+  background: var(--blueprint);
+}
+
+aside section:nth-child(3)::after {
+  background: var(--red);
+}
+
+/* --------------------------------------------------------------------------
+   10. References
    -------------------------------------------------------------------------- */
 
 .reference-list {
-  max-width: none;
-  margin-top: clamp(20px, 4vw, 42px);
+  max-width: none !important;
+  margin-top: clamp(26px, 5vw, 54px);
   padding-top: clamp(36px, 5vw, 64px);
 }
 
 .reference-list h2 {
   max-width: var(--text-max);
-}
-
-.reference-list h2::before {
-  content: "EVIDENCE INDEX";
 }
 
 .reference-list ol {
@@ -532,6 +772,7 @@ section:not(:first-of-type)::before {
   position: relative;
   counter-increment: ref;
   min-height: 64px;
+  margin: 0;
   padding:
     0.82rem
     1rem
@@ -539,28 +780,26 @@ section:not(:first-of-type)::before {
     4.35rem;
   color: var(--ink-soft);
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.44), rgba(222, 210, 184, 0.22)),
-    rgba(255, 255, 255, 0.22);
-  border: 1px solid rgba(21, 19, 16, 0.13);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.62), rgba(237, 226, 202, 0.40));
+  border: 1px solid var(--line);
   border-radius: var(--radius-sm);
-  font-family: var(--font-sans);
-  font-size: 0.86rem;
-  line-height: 1.45;
+  font-family: var(--font-type);
+  font-size: 0.78rem;
+  line-height: 1.46;
 }
 
 .reference-list li::before {
   content: counter(ref, decimal-leading-zero);
   position: absolute;
   top: 0.82rem;
-  left: 0.86rem;
+  left: 0.82rem;
   width: 2.62rem;
-  padding: 0.24rem 0;
-  color: var(--cream);
-  background: var(--file-black);
+  padding: 0.23rem 0;
+  color: var(--white);
+  background: var(--black);
   border-radius: 999px;
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 850;
+  font-size: 0.66rem;
+  font-weight: 900;
   line-height: 1;
   text-align: center;
 }
@@ -568,16 +807,16 @@ section:not(:first-of-type)::before {
 .reference-list li:target {
   color: var(--ink);
   background:
-    linear-gradient(180deg, rgba(140, 31, 31, 0.13), rgba(255, 255, 255, 0.52)),
-    var(--paper-soft);
+    linear-gradient(180deg, rgba(143, 29, 29, 0.12), rgba(255, 255, 255, 0.68)),
+    var(--paper-3);
   border-color: var(--red);
-  box-shadow: 0 0 0 3px rgba(140, 31, 31, 0.12);
+  box-shadow: 0 0 0 3px rgba(143, 29, 29, 0.12);
   scroll-margin-top: 24px;
 }
 
 .reference-list .authors {
-  color: var(--ink);
-  font-weight: 760;
+  color: var(--black);
+  font-weight: 900;
 }
 
 .reference-list .title {
@@ -585,26 +824,44 @@ section:not(:first-of-type)::before {
 }
 
 .reference-list .source {
-  color: var(--steel);
-  font-weight: 650;
+  color: var(--blueprint);
+  font-weight: 900;
 }
 
 .reference-list .year {
   color: var(--olive);
-  font-family: var(--font-mono);
-  font-size: 0.86em;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .reference-list a {
-  color: #6d1919;
-  font-family: var(--font-mono);
-  font-size: 0.86em;
+  color: var(--red);
+  font-size: 0.94em;
   word-break: break-word;
 }
 
 /* --------------------------------------------------------------------------
-   10. Generic elements that may appear in the repo
+   11. Footer
+   -------------------------------------------------------------------------- */
+
+footer {
+  position: relative;
+  z-index: 1;
+  padding: 0 0 clamp(32px, 5vw, 54px);
+  color: var(--ink-muted);
+  font-size: 0.82rem;
+}
+
+footer .page {
+  padding:
+    1rem
+    clamp(16px, 3vw, 28px);
+  background: rgba(255, 253, 247, 0.44);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+/* --------------------------------------------------------------------------
+   12. Generic elements
    -------------------------------------------------------------------------- */
 
 img,
@@ -621,7 +878,7 @@ ol {
 }
 
 li + li {
-  margin-top: 0.36rem;
+  margin-top: 0.35rem;
 }
 
 table {
@@ -631,139 +888,131 @@ table {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: var(--radius-sm);
-  font-family: var(--font-sans);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
 }
 
 th,
 td {
-  padding: 0.72rem 0.82rem;
-  border-bottom: 1px solid rgba(21, 19, 16, 0.12);
+  padding: 0.75rem 0.82rem;
+  border-bottom: 1px solid var(--line);
   text-align: left;
   vertical-align: top;
 }
 
 th {
-  color: var(--cream);
-  background: var(--file-black);
-  font-weight: 760;
+  color: var(--white);
+  background: var(--black);
+  font-weight: 900;
 }
 
 td {
   color: var(--ink-soft);
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 253, 247, 0.55);
 }
 
 blockquote {
   margin: 1.6rem 0;
   padding: 1rem 1.2rem;
   color: var(--ink-soft);
-  background: rgba(255, 255, 255, 0.36);
-  border-left: 4px solid var(--red);
+  background: rgba(255, 253, 247, 0.60);
+  border-left: 4px solid var(--black);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 
 /* --------------------------------------------------------------------------
-   11. Optional header/footer compatibility
-   Harmless if not present.
+   13. Responsive
    -------------------------------------------------------------------------- */
 
-header,
-.site-header,
-.hero,
-footer,
-.site-footer {
-  position: relative;
-  z-index: 1;
-}
-
-.site-header,
-.hero,
-footer,
-.site-footer {
-  width: min(var(--page-max), calc(100% - 32px));
-  margin-inline: auto;
-}
-
-footer,
-.site-footer {
-  margin-top: 2rem;
-  color: var(--ink-muted);
-  font-family: var(--font-sans);
-  font-size: 0.86rem;
-}
-
-/* --------------------------------------------------------------------------
-   12. Responsive layout
-   -------------------------------------------------------------------------- */
-
-@media (min-width: 980px) {
-  section {
-    padding-left: 1.2rem;
-  }
-
-  section[aria-labelledby="overview"] {
-    padding-left: 0;
-  }
-
+@media (min-width: 1180px) {
   .reference-list ol {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
 
-  .reference-list li {
-    font-size: 0.82rem;
+@media (max-width: 1040px) {
+  .page.layout {
+    grid-template-columns: 1fr;
+  }
+
+  aside {
+    position: static;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+  }
+
+  aside section {
+    min-width: 0;
+  }
+
+  .identity-links {
+    grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 820px) {
   body {
-    font-size: 16.5px;
+    font-size: 15.5px;
     line-height: 1.66;
   }
 
+  .page {
+    width: min(100% - 22px, var(--page-max));
+  }
+
   .page.layout {
-    width: min(100% - 18px, var(--page-max));
+    width: min(100% - 22px, var(--page-max));
+    gap: 1rem;
+    padding-top: 1rem;
+  }
+
+  .hero {
     padding-top: 12px;
-    padding-bottom: 28px;
+  }
+
+  .hero .page {
+    padding: 24px 18px;
+    border-radius: 16px;
+  }
+
+  .title {
+    font-size: clamp(2.25rem, 15vw, 4rem);
   }
 
   main#main {
-    padding: 26px 17px 36px;
-    border-radius: 14px;
+    padding: 26px 16px 38px;
+    border-radius: 16px;
   }
 
   main#main::before {
-    margin-bottom: 1.3rem;
-    font-size: 0.58rem;
-    letter-spacing: 0.085em;
+    margin-bottom: 1.5rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
   }
 
   main#main::after {
-    right: 17px;
-    opacity: 0.42;
+    background:
+      linear-gradient(90deg, rgba(143, 29, 29, 0.15), transparent 1px) 28px 0 / 1px 100% no-repeat;
   }
 
-  section {
+  main#main > section {
     padding: 28px 0;
   }
 
   h2 {
-    font-size: 1.22rem;
+    font-size: 1.18rem;
   }
 
-  h2::before {
-    font-size: 0.58rem;
-  }
-
-  h2::after {
+  main#main h2::after {
     display: block;
-    margin: 0.48rem 0 0;
-    font-size: 0.58rem;
+    margin: 0.45rem 0 0;
   }
 
   p.lead {
-    font-size: 1.18rem;
-    line-height: 1.48;
+    font-size: 1.04rem;
+  }
+
+  aside {
+    grid-template-columns: 1fr;
   }
 
   .machine-block {
@@ -771,38 +1020,44 @@ footer,
   }
 
   .reference-list li {
-    padding-left: 3.72rem;
-    font-size: 0.8rem;
+    padding-left: 3.75rem;
+    font-size: 0.74rem;
   }
 
   .reference-list li::before {
     left: 0.7rem;
-    width: 2.38rem;
+    width: 2.36rem;
   }
 }
 
-@media (max-width: 440px) {
-  body {
-    font-size: 16px;
+@media (max-width: 460px) {
+  .page,
+  .page.layout {
+    width: min(100% - 16px, var(--page-max));
   }
 
-  main#main {
-    padding-left: 14px;
-    padding-right: 14px;
+  body {
+    font-size: 15px;
+  }
+
+  .hero .page,
+  main#main,
+  aside section {
+    border-radius: 14px;
+  }
+
+  .canonical a {
+    width: 100%;
   }
 
   .refmark a {
-    min-width: 1.26em;
-    height: 1.26em;
-  }
-
-  .machine-block a {
-    font-size: 0.76rem;
+    min-width: 1.24em;
+    height: 1.24em;
   }
 }
 
 /* --------------------------------------------------------------------------
-   13. Accessibility and motion
+   14. Reduced motion
    -------------------------------------------------------------------------- */
 
 @media (prefers-reduced-motion: reduce) {
@@ -817,25 +1072,24 @@ footer,
 }
 
 /* --------------------------------------------------------------------------
-   14. Print version
+   15. Print
    -------------------------------------------------------------------------- */
 
 @media print {
   :root {
     --paper: #ffffff;
-    --paper-deep: #ffffff;
-    --paper-soft: #ffffff;
+    --paper-2: #ffffff;
+    --paper-3: #ffffff;
+    --paper-edge: #cccccc;
     --ink: #000000;
     --ink-2: #111111;
     --ink-soft: #222222;
     --ink-muted: #444444;
     --ink-faint: #666666;
-    --file-black: #000000;
+    --black: #000000;
     --line: #cccccc;
     --line-strong: #999999;
     --red: #000000;
-    --red-soft: transparent;
-    --red-line: #777777;
   }
 
   html,
@@ -845,31 +1099,47 @@ footer,
 
   body::before,
   body::after,
-  main#main::after {
+  .hero .page::after,
+  main#main::after,
+  aside section::before {
     display: none !important;
   }
 
-  .page.layout {
-    width: 100%;
+  .hero,
+  .page.layout,
+  footer {
     padding: 0;
   }
 
-  main#main {
+  .page,
+  .page.layout {
+    width: 100%;
+  }
+
+  .hero .page,
+  main#main,
+  aside section,
+  footer .page {
     padding: 0;
+    color: #000000;
+    background: #ffffff;
     border: 0;
     border-radius: 0;
     box-shadow: none;
-    background: #ffffff;
   }
 
-  main#main::before {
-    color: #000000;
-    background: #ffffff;
-    border: 1px solid #777777;
-    box-shadow: none;
+  .page.layout {
+    display: block;
   }
 
-  section {
+  aside {
+    display: block;
+    position: static;
+    margin-top: 2rem;
+  }
+
+  aside section {
+    margin-bottom: 1rem;
     break-inside: avoid;
   }
 
@@ -878,15 +1148,18 @@ footer,
     text-decoration: underline;
   }
 
+  .canonical a,
+  .identity-links a,
+  .machine-block a,
   .refmark a {
     color: #000000;
     background: #ffffff;
     border: 1px solid #999999;
   }
 
-  .machine-block {
-    box-shadow: none;
-    background: #ffffff;
+  main#main > section,
+  .reference-list li {
+    break-inside: avoid;
   }
 
   .reference-list ol {
@@ -894,7 +1167,6 @@ footer,
   }
 
   .reference-list li {
-    break-inside: avoid;
     background: #ffffff;
     border-color: #cccccc;
   }
