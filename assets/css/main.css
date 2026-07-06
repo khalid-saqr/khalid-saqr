@@ -1,14 +1,9 @@
 /* ==========================================================================
    Khalid Saqr Biography
-   Full replacement CSS
-   Design: modern digitised paper file, black typewriter text, clean dossier cards
+   Revised CSS v3
+   Design: modern paper-file dossier, black typewriter body, hero-side cards
    Target: assets/css/main.css
-   Constraint: no HTML structure changes required
    ========================================================================== */
-
-/* --------------------------------------------------------------------------
-   01. Design tokens
-   -------------------------------------------------------------------------- */
 
 :root {
   color-scheme: light;
@@ -37,6 +32,7 @@
 
   --shadow-page: 0 28px 90px rgba(26, 20, 10, 0.22);
   --shadow-card: 0 14px 38px rgba(26, 20, 10, 0.13);
+  --shadow-dark: 0 20px 60px rgba(0, 0, 0, 0.32);
 
   --font-type:
     "Courier Prime",
@@ -58,15 +54,17 @@
 
   --page-max: 1320px;
   --text-max: 790px;
-  --aside-width: 330px;
+  --aside-width: 340px;
 
   --radius-lg: 20px;
   --radius-md: 14px;
   --radius-sm: 9px;
+
+  --hero-min-height: 360px;
 }
 
 /* --------------------------------------------------------------------------
-   02. Reset and base
+   Base
    -------------------------------------------------------------------------- */
 
 *,
@@ -107,7 +105,7 @@ body::before {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.16;
+  opacity: 0.14;
   background:
     repeating-linear-gradient(
       0deg,
@@ -140,7 +138,7 @@ body::after {
 }
 
 /* --------------------------------------------------------------------------
-   03. Accessibility and links
+   Accessibility and links
    -------------------------------------------------------------------------- */
 
 .skip {
@@ -184,7 +182,7 @@ a:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
-   04. Shared page width
+   Shared page width
    -------------------------------------------------------------------------- */
 
 .page {
@@ -193,7 +191,7 @@ a:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
-   05. Hero / cover sheet
+   Hero / cover file
    -------------------------------------------------------------------------- */
 
 .hero {
@@ -205,8 +203,9 @@ a:focus-visible {
 .hero .page {
   position: relative;
   overflow: hidden;
+  min-height: var(--hero-min-height);
   padding:
-    clamp(26px, 4vw, 46px)
+    clamp(30px, 4vw, 48px)
     clamp(22px, 4vw, 48px);
   color: var(--white);
   background:
@@ -236,15 +235,16 @@ a:focus-visible {
 .hero .page::after {
   content: "";
   position: absolute;
-  right: -86px;
+  right: -74px;
   top: -86px;
-  width: 260px;
-  height: 260px;
-  border: 1px solid rgba(255, 255, 255, 0.13);
+  width: 250px;
+  height: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 50%;
   background:
     radial-gradient(circle, transparent 0 42%, rgba(255, 255, 255, 0.055) 43% 44%, transparent 45%),
     radial-gradient(circle, rgba(255, 255, 255, 0.07), transparent 58%);
+  opacity: 0.72;
 }
 
 .kicker {
@@ -257,31 +257,41 @@ a:focus-visible {
   text-transform: uppercase;
 }
 
-/* CRITICAL: scoped only to hero to avoid breaking reference .title spans */
+/* Fix: the name must always be white, even if the H1 has no .title class */
+.hero h1,
 .hero .title {
+  position: relative;
+  z-index: 1;
+  max-width: 560px;
   margin: 0;
-  color: var(--white);
+  color: var(--white) !important;
   font-family: var(--font-type);
   font-size: clamp(2.45rem, 7.5vw, 5.8rem);
   font-weight: 900;
   line-height: 0.94;
   letter-spacing: -0.085em;
   text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
 .subtitle {
-  max-width: 840px;
-  margin: clamp(15px, 3vw, 22px) 0 0;
+  position: relative;
+  z-index: 1;
+  max-width: 560px;
+  margin: clamp(16px, 3vw, 24px) 0 0;
   color: #eee1c7;
   font-size: clamp(0.98rem, 1.65vw, 1.22rem);
   line-height: 1.58;
 }
 
 .canonical {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 0.58rem;
   align-items: center;
+  max-width: 580px;
   margin-top: clamp(18px, 3vw, 26px);
   color: rgba(243, 228, 197, 0.75);
   font-size: 0.82rem;
@@ -315,12 +325,12 @@ a:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
-   06. Main layout with fluid right column
+   Main layout
    -------------------------------------------------------------------------- */
 
 .page.layout {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, var(--aside-width));
   gap: clamp(18px, 3vw, 32px);
@@ -328,6 +338,22 @@ a:focus-visible {
   width: min(var(--page-max), calc(100% - 32px));
   margin-inline: auto;
   padding: clamp(24px, 4vw, 42px) 0 clamp(64px, 7vw, 96px);
+}
+
+/* Pull the sidebar upward so its first cards occupy the hero's empty right side */
+@media (min-width: 1041px) {
+  .page.layout {
+    padding-top: 0;
+    margin-top: calc(-1 * (var(--hero-min-height) - 56px));
+  }
+
+  main#main {
+    margin-top: calc(var(--hero-min-height) + 44px);
+  }
+
+  aside {
+    margin-top: 30px;
+  }
 }
 
 main#main {
@@ -348,7 +374,7 @@ main#main {
 }
 
 main#main::before {
-  content: "PUBLIC BIOGRAPHY";
+  content: "TYPEWRITTEN PUBLIC BIOGRAPHY";
   display: inline-flex;
   margin-bottom: clamp(22px, 4vw, 36px);
   padding: 0.44rem 0.66rem;
@@ -373,7 +399,7 @@ main#main::after {
 }
 
 /* --------------------------------------------------------------------------
-   07. Biography typography
+   Biography typography
    -------------------------------------------------------------------------- */
 
 h1,
@@ -475,7 +501,7 @@ b {
 }
 
 /* --------------------------------------------------------------------------
-   08. Claim-level citations
+   Citations
    -------------------------------------------------------------------------- */
 
 .refmark {
@@ -509,7 +535,7 @@ b {
 }
 
 /* --------------------------------------------------------------------------
-   09. Machine-readable files
+   Machine-readable files
    -------------------------------------------------------------------------- */
 
 .machine-block {
@@ -567,26 +593,86 @@ b {
 }
 
 /* --------------------------------------------------------------------------
-   10. Right-column cards: At a glance / On the web / Research impact
+   Right-column cards
    -------------------------------------------------------------------------- */
 
 aside {
   position: sticky;
   top: 18px;
   display: grid;
-  gap: 0.92rem;
+  gap: 0.82rem;
   min-width: 0;
+  z-index: 4;
 }
 
 aside section {
   position: relative;
   overflow: hidden;
-  padding: 1rem;
+  padding: 0.92rem;
+  border-radius: var(--radius-md);
+}
+
+/* First two cards live visually inside the black hero */
+@media (min-width: 1041px) {
+  aside section:nth-of-type(1),
+  aside section:nth-of-type(2) {
+    color: var(--white);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.055)),
+      rgba(8, 8, 8, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: var(--shadow-dark);
+    backdrop-filter: blur(10px);
+  }
+
+  aside section:nth-of-type(1)::after,
+  aside section:nth-of-type(2)::after {
+    background: rgba(255, 255, 255, 0.65);
+  }
+
+  aside section:nth-of-type(1) h2,
+  aside section:nth-of-type(2) h2 {
+    color: var(--white);
+    border-bottom-color: rgba(255, 255, 255, 0.16);
+  }
+
+  aside section:nth-of-type(1) .side-list li,
+  aside section:nth-of-type(2) .identity-links a {
+    color: #f3e4c5;
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.13);
+  }
+
+  aside section:nth-of-type(1) .side-list strong {
+    color: var(--white);
+  }
+
+  aside section:nth-of-type(2) .identity-links a::after {
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  aside section:nth-of-type(2) .identity-links a:hover {
+    color: var(--black);
+    background: var(--white);
+    border-color: var(--white);
+  }
+
+  aside section:nth-of-type(2) .identity-links a:hover::after {
+    color: var(--black);
+  }
+
+  aside section:nth-of-type(3) {
+    margin-top: 1rem;
+  }
+}
+
+/* Paper cards for normal/mobile context and research impact */
+aside section,
+aside section:nth-of-type(3) {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.80), rgba(239, 229, 207, 0.76)),
     var(--paper-soft);
   border: 1px solid rgba(8, 8, 8, 0.13);
-  border-radius: var(--radius-md);
   box-shadow: var(--shadow-card);
 }
 
@@ -595,7 +681,7 @@ aside section::before {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  opacity: 0.6;
+  opacity: 0.48;
   background:
     linear-gradient(rgba(8, 8, 8, 0.024) 1px, transparent 1px),
     linear-gradient(90deg, rgba(8, 8, 8, 0.018) 1px, transparent 1px);
@@ -605,8 +691,8 @@ aside section::before {
 aside section::after {
   content: "";
   position: absolute;
-  left: 1rem;
-  right: 1rem;
+  left: 0.92rem;
+  right: 0.92rem;
   top: 0;
   height: 4px;
   background: var(--black);
@@ -616,26 +702,26 @@ aside section::after {
 aside h2 {
   position: relative;
   z-index: 1;
-  margin: 0 0 0.85rem;
-  padding: 0 0 0.62rem;
+  margin: 0 0 0.78rem;
+  padding: 0 0 0.58rem;
   color: var(--black);
   border-bottom: 1px solid var(--line);
   font-family: var(--font-type);
-  font-size: 0.86rem;
+  font-size: 0.82rem;
   font-weight: 900;
   line-height: 1.15;
   letter-spacing: 0.035em;
   text-transform: uppercase;
 }
 
-/* Visually rename Profile links to On the web without requiring HTML edit */
+/* Visually rename Profile links to On the web without HTML edits */
 aside section:nth-of-type(2) h2 {
   font-size: 0;
 }
 
 aside section:nth-of-type(2) h2::before {
   content: "On the web";
-  font-size: 0.86rem;
+  font-size: 0.82rem;
 }
 
 /* At a glance */
@@ -643,7 +729,7 @@ aside section:nth-of-type(2) h2::before {
   position: relative;
   z-index: 1;
   display: grid;
-  gap: 0.62rem;
+  gap: 0.54rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -651,20 +737,20 @@ aside section:nth-of-type(2) h2::before {
 
 .side-list li {
   margin: 0;
-  padding: 0.66rem 0.72rem;
+  padding: 0.58rem 0.64rem;
   color: var(--ink-soft);
   background: rgba(255, 253, 247, 0.62);
   border: 1px solid rgba(8, 8, 8, 0.095);
   border-radius: var(--radius-sm);
-  font-size: 0.75rem;
-  line-height: 1.4;
+  font-size: 0.72rem;
+  line-height: 1.38;
 }
 
 .side-list strong {
   display: block;
-  margin-bottom: 0.18rem;
+  margin-bottom: 0.16rem;
   color: var(--black);
-  font-size: 0.64rem;
+  font-size: 0.61rem;
   font-weight: 900;
   letter-spacing: 0.075em;
   text-transform: uppercase;
@@ -676,20 +762,20 @@ aside section:nth-of-type(2) h2::before {
   z-index: 1;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 0.5rem;
+  gap: 0.46rem;
 }
 
 .identity-links a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 38px;
-  padding: 0.62rem 0.72rem;
+  min-height: 36px;
+  padding: 0.56rem 0.64rem;
   color: var(--ink);
   background: rgba(255, 253, 247, 0.66);
   border: 1px solid rgba(8, 8, 8, 0.11);
   border-radius: var(--radius-sm);
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   font-weight: 900;
   line-height: 1.2;
   text-decoration: none;
@@ -719,13 +805,13 @@ aside section:nth-of-type(2) h2::before {
   z-index: 1;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 0.55rem;
+  gap: 0.5rem;
 }
 
 .fact {
   display: grid;
   gap: 0.12rem;
-  padding: 0.66rem 0.72rem;
+  padding: 0.6rem 0.66rem;
   background: rgba(255, 253, 247, 0.66);
   border: 1px solid rgba(8, 8, 8, 0.11);
   border-radius: var(--radius-sm);
@@ -734,7 +820,7 @@ aside section:nth-of-type(2) h2::before {
 .fact strong {
   display: block;
   color: var(--black);
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   font-weight: 900;
   line-height: 1.05;
   letter-spacing: -0.04em;
@@ -742,7 +828,7 @@ aside section:nth-of-type(2) h2::before {
 
 .fact span {
   color: var(--ink-muted);
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   line-height: 1.32;
 }
 
@@ -759,7 +845,7 @@ aside section:nth-of-type(3)::after {
 }
 
 /* --------------------------------------------------------------------------
-   11. Reference evidence index
+   Reference evidence index
    -------------------------------------------------------------------------- */
 
 .reference-list {
@@ -833,7 +919,6 @@ aside section:nth-of-type(3)::after {
   font-weight: 900;
 }
 
-/* CRITICAL: prevents reference titles from inheriting hero-title styling */
 .reference-list .title {
   display: inline;
   color: var(--ink-soft);
@@ -862,7 +947,7 @@ aside section:nth-of-type(3)::after {
 }
 
 /* --------------------------------------------------------------------------
-   12. Footer
+   Footer and generic content
    -------------------------------------------------------------------------- */
 
 footer {
@@ -879,10 +964,6 @@ footer .page {
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
 }
-
-/* --------------------------------------------------------------------------
-   13. Generic content
-   -------------------------------------------------------------------------- */
 
 img,
 svg,
@@ -940,7 +1021,7 @@ blockquote {
 }
 
 /* --------------------------------------------------------------------------
-   14. Responsive behaviour
+   Responsive
    -------------------------------------------------------------------------- */
 
 @media (min-width: 1180px) {
@@ -981,10 +1062,12 @@ blockquote {
   }
 
   .hero .page {
+    min-height: auto;
     padding: 24px 18px;
     border-radius: 16px;
   }
 
+  .hero h1,
   .hero .title {
     font-size: clamp(2.15rem, 14vw, 4rem);
   }
@@ -1068,7 +1151,7 @@ blockquote {
 }
 
 /* --------------------------------------------------------------------------
-   15. Reduced motion
+   Reduced motion
    -------------------------------------------------------------------------- */
 
 @media (prefers-reduced-motion: reduce) {
@@ -1083,7 +1166,7 @@ blockquote {
 }
 
 /* --------------------------------------------------------------------------
-   16. Print
+   Print
    -------------------------------------------------------------------------- */
 
 @media print {
@@ -1142,6 +1225,7 @@ blockquote {
 
   .page.layout {
     display: block;
+    margin-top: 0;
   }
 
   aside {
