@@ -17,11 +17,9 @@
 
 ## Research profile
 
-Khalid Saqr's line of work moves from mechanical and energy-conversion systems into blood flow, vascular signalling, Bio-CFD, mechanobiology and scientific knowledge infrastructure. The early record deals with heat control, gas-turbine flow, combustion, detonation dynamics, vortices, turbulence, entropy, exergy, renewable-energy machines, urban flows, offshore structures and CFD reliability.
+Khalid M. Saqr works where computational models become consequential evidence. Across turbulence in living, natural and engineered systems, he developed a research discipline built on interrogating assumptions, increasing model fidelity, confronting simulation with experiment, and identifying mechanisms that alter interpretation. That inquiry later expanded into financial markets, game theory and language models, where turbulence, entropy and computation become tools for understanding complex systems whose behaviour bears directly on human life, technology and economies.
 
-After 2012, the focus moved toward biofluid mechanics. Blood flow in large arteries and cerebral vessels became the central challenge: a living flow in which viscosity, pulsatility, wall motion, bifurcation, turbulence and biological response cannot be separated cleanly. That turn led into Saqr's neurovascular research, Bio-CFD, mechanobiology and the question of how a calculated flow field becomes a biological signal.
-
-The later work extends the same discipline into knowledge systems. Scientific knowledge is treated as another complex system: papers, citations, code, data, simulations, expert judgement and intellectual property are valuable only when they can be inspected, connected, reused and trusted.
+He is advising government agencies, institutions and corporations across the United States, Europe, MENA and East Asia; supervised doctoral research internationally; served on editorial boards of journals published by Springer Nature, Frontiers and MDPI; and translated research into computational medicine, research intelligence and scientific due diligence. His unique intellectual strength is the ability to move from equations and experiments to model risk, evidence quality and high-consequence technical judgment.
 
 ## Public biography
 
