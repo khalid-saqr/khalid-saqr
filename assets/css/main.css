@@ -887,3 +887,32 @@ blockquote {
   .quick-nav { gap: 0 16px; }
 }
 @media print { .quick-nav, .chapter-nav { display: none; } }
+
+/* Featured publications in the biography hero. */
+.hero .km-hero-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(320px,390px); gap:clamp(24px,4vw,54px); align-items:start; }
+.hero-identity { min-width:0; align-self:center; }
+.km-feature { min-width:0; background:#101010; color:#fff; padding:17px; border:2px solid #101010; border-radius:var(--radius,10px); box-shadow:var(--shadow-soft,4px 5px 0 #0001); font-family:var(--sans,system-ui,sans-serif); }
+.km-feature .km-eyebrow { display:flex; flex-wrap:wrap; justify-content:space-between; gap:5px 12px; margin:0 0 13px; color:#c6c6c6; font:700 10px/1.4 var(--mono,monospace); letter-spacing:.07em; text-transform:uppercase; }
+.km-book { display:grid; grid-template-columns: minmax(88px, .67fr) minmax(0,1fr); gap:16px; align-items:center; }
+.km-cover { display:block; border:1px solid #777; line-height:0; }
+.km-cover img { width:100%; height:auto; display:block; }
+.km-feature h2 { margin:0 0 8px; font-size:clamp(24px,2.2vw,33px); line-height:.93; letter-spacing:-.065em; font-weight:900; color:#fff; }
+.km-subtitle { margin:0; font-size:14px; line-height:1.4; color:#ddd; }
+.km-feature a:focus-visible { outline:2px solid #fff; outline-offset:3px; }
+.km-amazon { margin-top:16px; display:flex; justify-content:space-between; align-items:center; gap:10px; min-height:44px; background:#fff; color:#111; padding:8px 11px; font-size:12px; font-weight:800; border-radius:3px; }
+.km-amazon:hover { background:#dedede; text-decoration:none; }
+@media(max-width:900px){.hero .km-hero-grid{grid-template-columns:1fr;}.km-feature{max-width:470px;width:100%;}.km-feature h2{font-size:32px;}}
+@media(max-width:380px){.km-feature{padding:12px;}.km-book{gap:10px;grid-template-columns: minmax(70px,.63fr) minmax(0,1fr);}.km-feature h2{font-size:23px;}}
+@media print{.hero .km-hero-grid{display:block;}.km-feature{margin-top:16px;background:white;color:black;box-shadow:none;}.km-feature h2,.km-feature p,.km-feature .km-eyebrow{color:black;}}
+
+/* Publication stack: book above paper. */
+.hero-features { min-width:0; display:grid; gap:14px; align-content:start; }
+.km-paper { min-width:0; padding:17px; color:var(--ink,#101010); background:#fff; border:2px solid var(--ink,#101010); border-radius:var(--radius,10px); box-shadow:var(--shadow-soft,4px 5px 0 #0001); }
+.km-paper .km-eyebrow { display:flex; flex-wrap:wrap; justify-content:space-between; gap:5px 12px; margin:0 0 10px; color:var(--muted,#4b4b4b); font:700 10px/1.4 var(--mono,monospace); letter-spacing:.07em; text-transform:uppercase; }
+.km-paper h2 { margin:0 0 8px; font-size:clamp(21px,2vw,27px); line-height:1.08; letter-spacing:-.045em; font-weight:850; }
+.km-paper-meta { margin:0 0 12px; font-size:12px; line-height:1.4; color:var(--muted,#4b4b4b); }
+.km-paper-link { display:flex; justify-content:space-between; align-items:center; gap:10px; min-height:44px; padding:8px 11px; border-radius:3px; background:#101010; color:#fff; font-size:12px; font-weight:800; }
+.km-paper-link:hover { background:#303030; text-decoration:none; }
+@media(max-width:900px){.hero-features{width:100%;max-width:470px;}.km-paper h2{font-size:25px;}}
+@media(max-width:380px){.km-paper{padding:12px;}.km-paper h2{font-size:21px;}}
+@media print{.hero-features{display:block;}.km-paper{margin-top:12px;box-shadow:none;break-inside:avoid;}.km-paper-link,.km-amazon{background:white;color:black;border:1px solid black;}}
