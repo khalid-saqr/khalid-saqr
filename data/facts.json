@@ -51,5 +51,23 @@
   "bookRecord": {
     "knownTitlesAcrossPublicRecords": 7,
     "scope": "Reconciled titles from the biography and older book index; bibliographic discrepancies marked."
+  },
+  "researchImpact": {
+    "googleScholar": {
+      "citations": 3807,
+      "hIndex": 37,
+      "reportedDate": "2026-11-27",
+      "source": "Owner-reported Google Scholar figures",
+      "profileUrl": "https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate"
+    },
+    "stanfordTopTwoPercent": {
+      "years": [
+        2022,
+        2023,
+        2025
+      ],
+      "source": "Owner-reported list inclusion"
+    },
+    "verificationStatus": "Owner-reported; not independently verified"
   }
 }

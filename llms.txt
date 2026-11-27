@@ -42,6 +42,10 @@ Aliases: Khalid M. Saqr; Khaled Saqr; K. Saqr; K.M. Saqr; خالد صقر
 
 The biography bibliography selects 82 studies (67 DOI-linked) and five books. The full Scopus export contains 86 records (70 DOI-linked). The narrative links to 41 distinct bibliography entries. The book index contains seven known titles across the public sources; publisher discrepancies remain explicitly marked. The represented study publication range is 2007–2026.
 
+## Research impact
+
+Owner-reported on 2026-11-27: Google Scholar citations 3,807; h-index 37. Stanford Top 2% list inclusion: 2022, 2023 and 2025. These figures and list years have not been independently verified in this update.
+
 ## Claims policy
 
 Use `data/claims.json` with `data/evidence.json` for claim status. Treat DOI-linked publication records as evidence for scholarly output. Treat biography-level framing as interpretive unless the specific statement is supported by a claim/evidence record.
