@@ -72,3 +72,15 @@ This repository hosts the public biography page at:
 <https://khalid-saqr.github.io/khalid-saqr/>
 
 It keeps the human-readable biography, publication record, profile anchors and machine-readable identity files connected to the same public source.
+
+## Local validation (no GitHub Actions)
+
+The website is served as static HTML and CSS. Before publishing a change, run the dependency-free validator from the repository root:
+
+```sh
+python3 tools/validate.py
+```
+
+Use Python 3.9 or newer. The validator checks local links, references, bibliographic totals, JSON-LD parity, DOI consistency, graph edges, and claims/evidence relationships. It does not fetch external URLs, verify claims independently or measure browser accessibility. Warnings for unresolved bibliographic details and self-reported project evidence are intentional. The cleanup report is historical, not a current test result.
+
+Keep the biography's existing anchor IDs stable. Update source records and their mirrored representations together; retain the full publication export separately from the selected biography bibliography. Run validation locally before merging into the Pages publishing branch.
