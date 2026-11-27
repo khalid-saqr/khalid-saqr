@@ -3,16 +3,14 @@
     "id": "project-xpeerd",
     "title": "xPeerd",
     "type": "research-system",
-    "status": "source-cv",
-    "summary": "Source CV names xPeerd among key contributions. Public details can be expanded later through approved project records.",
+    "status": "self-reported-public-evidence-pending",
+    "summary": "Source CV names xPeerd among key contributions. The public CV extract does not substantiate this entry; public evidence is pending.",
     "domains": [
       "AI-assisted research systems",
       "knowledge engineering"
     ],
     "public": true,
-    "evidenceIds": [
-      "evidence-cv"
-    ]
+    "evidenceIds": []
   },
   {
     "id": "project-canonical-identity-console",
@@ -26,7 +24,8 @@
     ],
     "public": true,
     "evidenceIds": [
-      "evidence-public-identifiers"
+      "machine-data-identity-graph-json",
+      "machine-llms-txt"
     ]
   }
 ]

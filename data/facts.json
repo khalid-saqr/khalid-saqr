@@ -1,7 +1,7 @@
 {
   "subject": "Khalid Saqr",
   "canonicalUrl": "https://khalid-saqr.github.io/khalid-saqr/",
-  "coreIdentitySentence": "Khalid Saqr is a researcher-builder working across computational fluid dynamics, biofluid mechanics, high-fidelity modelling and simulation, AI-assisted research systems, and knowledge engineering.",
+  "coreIdentitySentence": "Khalid Saqr is a systems engineer, computational scientist, author and founder whose public record moves from thermal-fluid systems and turbulence into neurovascular haemodynamics, Bio-CFD, mechanobiology and scientific knowledge systems.",
   "plainLanguageSummary": "Khalid Saqr builds systems that turn scientific research, simulation output, evidence, and intellectual property into records machines can read and humans can trust.",
   "publicationRecord": {
     "source": "Scopus BibTeX export provided by the user",
@@ -38,5 +38,18 @@
     "private GitHub activity",
     "private repository names unless explicitly approved"
   ],
-  "lastUpdated": "2026-06-25"
+  "lastUpdated": "2026-11-27",
+  "biographyBibliography": {
+    "studies": 82,
+    "doiLinkedStudies": 67,
+    "books": 5,
+    "entries": 87,
+    "inlineCitationLinks": 45,
+    "distinctInlineCitedEntries": 41,
+    "scope": "Selected bibliography, not the full Scopus export or a complete author bibliography."
+  },
+  "bookRecord": {
+    "knownTitlesAcrossPublicRecords": 7,
+    "scope": "Reconciled titles from the biography and older book index; bibliographic discrepancies marked."
+  }
 }

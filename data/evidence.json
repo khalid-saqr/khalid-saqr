@@ -2,8 +2,8 @@
   {
     "id": "source-cv-redacted",
     "kind": "source_substrate",
-    "label": "Redacted CV Markdown extraction source",
-    "url": "https://khalid-saqr.github.io/khalid-saqr/source-redacted/khalid_saqr_cv_extracted_2025_source_redacted.md",
+    "label": "Public CV extract (self-reported; not independent verification)",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/content/cv.public.md",
     "evidence_level": "redacted-source",
     "supports_claim_ids": [
       "claim-bio-cfd-knowdyn",
@@ -27,7 +27,8 @@
     "url": "https://github.com/khalid-saqr",
     "evidence_level": "external-url",
     "supports_claim_ids": [
-      "claim-public-identity-graph"
+      "claim-public-identity-graph",
+      "claim-researcher-builder"
     ]
   },
   {
@@ -37,7 +38,8 @@
     "url": "https://orcid.org/0000-0002-3058-2705",
     "evidence_level": "external-url",
     "supports_claim_ids": [
-      "claim-public-identity-graph"
+      "claim-public-identity-graph",
+      "claim-researcher-builder"
     ]
   },
   {
@@ -47,7 +49,8 @@
     "url": "https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate",
     "evidence_level": "external-url",
     "supports_claim_ids": [
-      "claim-public-identity-graph"
+      "claim-public-identity-graph",
+      "claim-researcher-builder"
     ]
   },
   {
@@ -57,7 +60,8 @@
     "url": "https://www.scopus.com/authid/detail.uri?authorId=23567148300",
     "evidence_level": "external-url",
     "supports_claim_ids": [
-      "claim-public-identity-graph"
+      "claim-public-identity-graph",
+      "claim-researcher-builder"
     ]
   },
   {
@@ -77,7 +81,8 @@
     "url": "https://www.linkedin.com/in/khalidsaqr",
     "evidence_level": "external-url",
     "supports_claim_ids": [
-      "claim-public-identity-graph"
+      "claim-public-identity-graph",
+      "claim-bio-cfd-knowdyn"
     ]
   },
   {
@@ -127,7 +132,8 @@
     "url": "https://khalid-saqr.github.io/khalid-saqr/data/facts.json",
     "evidence_level": "canonical-site-file",
     "supports_claim_ids": [
-      "claim-machine-readable-public-record"
+      "claim-machine-readable-public-record",
+      "claim-researcher-builder"
     ]
   },
   {
@@ -206,7 +212,8 @@
     "evidence_level": "doi-and-scopus",
     "supports_claim_ids": [
       "claim-publication-corpus",
-      "claim-doi-corpus"
+      "claim-doi-corpus",
+      "claim-fluid-dynamics-anomaly"
     ]
   },
   {
@@ -225,7 +232,8 @@
     "evidence_level": "doi-and-scopus",
     "supports_claim_ids": [
       "claim-publication-corpus",
-      "claim-doi-corpus"
+      "claim-doi-corpus",
+      "claim-fluid-dynamics-anomaly"
     ]
   },
   {
@@ -320,7 +328,8 @@
     "evidence_level": "doi-and-scopus",
     "supports_claim_ids": [
       "claim-publication-corpus",
-      "claim-doi-corpus"
+      "claim-doi-corpus",
+      "claim-fluid-dynamics-anomaly"
     ]
   },
   {
@@ -339,7 +348,8 @@
     "evidence_level": "doi-and-scopus",
     "supports_claim_ids": [
       "claim-publication-corpus",
-      "claim-doi-corpus"
+      "claim-doi-corpus",
+      "claim-fluid-dynamics-anomaly"
     ]
   },
   {
@@ -527,7 +537,8 @@
     "evidence_level": "doi-and-scopus",
     "supports_claim_ids": [
       "claim-publication-corpus",
-      "claim-doi-corpus"
+      "claim-doi-corpus",
+      "claim-fluid-dynamics-anomaly"
     ]
   },
   {
@@ -1791,5 +1802,45 @@
     "supports_claim_ids": [
       "claim-publication-corpus"
     ]
+  },
+  {
+    "id": "book-reference-83",
+    "kind": "book_listing",
+    "label": "Innovation Fast Forward: Mining Human Ingenuity for Knowledge Capital",
+    "url": "https://www.amazon.com/dp/B0CMK5QNW5",
+    "evidence_level": "bibliographic_link_not_independently_verified",
+    "supports_claim_ids": []
+  },
+  {
+    "id": "book-reference-84",
+    "kind": "book_listing",
+    "label": "Self-debug Your Mind: It Takes Courage and AI",
+    "url": "https://www.amazon.com/dp/B0F8NH9ZSS",
+    "evidence_level": "bibliographic_link_not_independently_verified",
+    "supports_claim_ids": []
+  },
+  {
+    "id": "book-reference-85",
+    "kind": "book_listing",
+    "label": "AllMind Society",
+    "url": "https://www.amazon.com/dp/B0FPD6YWYZ",
+    "evidence_level": "bibliographic_link_not_independently_verified",
+    "supports_claim_ids": []
+  },
+  {
+    "id": "book-reference-86",
+    "kind": "book_listing",
+    "label": "Kinetic Markets: Financial Mechanics of Liquidity, Volatility, and Risk",
+    "url": "https://www.amazon.com/dp/B0GCVNS4QR",
+    "evidence_level": "bibliographic_link_not_independently_verified",
+    "supports_claim_ids": []
+  },
+  {
+    "id": "book-reference-87",
+    "kind": "book_listing",
+    "label": "Adjoint Thinking: How to Think with Machines Without Losing Your Mind",
+    "url": "https://www.amazon.com/dp/B0H3DWP3SP",
+    "evidence_level": "bibliographic_link_not_independently_verified",
+    "supports_claim_ids": []
   }
 ]

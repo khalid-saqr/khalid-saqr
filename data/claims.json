@@ -28,7 +28,8 @@
       "profile-google_scholar",
       "profile-scopus",
       "profile-github",
-      "machine-data-facts-json"
+      "machine-data-facts-json",
+      "source-cv-redacted"
     ],
     "machine_note": "This is the preferred public positioning for the site."
   },
@@ -253,11 +254,12 @@
     "claim": "The autobiography frames the career as a movement from physical anomaly to systems for machine-readable science.",
     "status": "interpretive",
     "category": "narrative",
-    "evidence_ids": [
+    "evidence_ids": [],
+    "machine_note": "This is an interpretive narrative spine; verify factual claims through their cited evidence records.",
+    "depends_on_claim_ids": [
       "claim-fluid-dynamics-anomaly",
       "claim-bio-cfd-knowdyn",
       "claim-machine-readable-public-record"
-    ],
-    "machine_note": "This is an interpretive narrative spine; verify factual claims through their cited evidence records."
+    ]
   }
 ]

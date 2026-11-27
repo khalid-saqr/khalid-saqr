@@ -1,12 +1,7 @@
-// Cleanup service worker for the static biography site.
-// The current site does not require offline caching; this clears old caches from earlier builds.
-self.addEventListener('install', event => { self.skipWaiting(); });
+// Legacy cleanup service worker. This site no longer registers one.
+// CacheStorage belongs to the entire origin; do not delete unrelated project caches.
+// No historical cache names are verified in the current repository.
+self.addEventListener('install', event => { event.waitUntil(self.skipWaiting()); });
 self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys()
-      .then(keys => Promise.all(keys.map(key => caches.delete(key))))
-      .then(() => self.registration.unregister())
-      .then(() => self.clients.matchAll())
-      .then(clients => clients.forEach(client => client.navigate(client.url)))
-  );
+  event.waitUntil(self.registration.unregister());
 });

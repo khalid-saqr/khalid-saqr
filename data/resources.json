@@ -121,5 +121,159 @@
       "machines"
     ],
     "description": "BibTeX source copied from Scopus export."
+  },
+  {
+    "label": "Books",
+    "path": "data/books.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/books.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Reconciled book titles with available bibliography identifiers and evidence."
+  },
+  {
+    "label": "Aliases",
+    "path": "data/aliases.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/aliases.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Public name variants."
+  },
+  {
+    "label": "Identifiers",
+    "path": "data/identifiers.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/identifiers.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Public scholarly identifiers."
+  },
+  {
+    "label": "External profiles",
+    "path": "data/external-profiles.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/external-profiles.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Public identity anchors."
+  },
+  {
+    "label": "Profile",
+    "path": "data/profile.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/profile.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Canonical public profile and redaction policy."
+  },
+  {
+    "label": "Academic roles",
+    "path": "data/roles.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/roles.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Self-reported academic appointments."
+  },
+  {
+    "label": "Editorial roles",
+    "path": "data/editorial-roles.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/editorial-roles.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Self-reported editorial appointments."
+  },
+  {
+    "label": "Ventures",
+    "path": "data/ventures.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/ventures.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Self-reported venture and advisory roles."
+  },
+  {
+    "label": "Projects",
+    "path": "data/projects.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/projects.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Project records, including evidence status."
+  },
+  {
+    "label": "Resource index",
+    "path": "data/resources.json",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/data/resources.json",
+    "format": "JSON",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Public resource catalogue."
+  },
+  {
+    "label": "Claims Markdown",
+    "path": "content/claims.md",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/content/claims.md",
+    "format": "Markdown",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Readable claims and historical source notes."
+  },
+  {
+    "label": "Evidence ledger Markdown",
+    "path": "content/evidence-ledger.md",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/content/evidence-ledger.md",
+    "format": "Markdown",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Readable claims and evidence summary."
+  },
+  {
+    "label": "Publications Markdown",
+    "path": "content/publications.md",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/content/publications.md",
+    "format": "Markdown",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Readable publication export."
+  },
+  {
+    "label": "LLM guide Markdown",
+    "path": "content/llms.md",
+    "url": "https://khalid-saqr.github.io/khalid-saqr/content/llms.md",
+    "format": "Markdown",
+    "audience": [
+      "humans",
+      "machines"
+    ],
+    "description": "Mirror of llms.txt."
   }
 ]

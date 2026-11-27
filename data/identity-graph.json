@@ -91,6 +91,54 @@
       "label": "doi-index.json",
       "type": "machine_file",
       "url": "https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json"
+    },
+    {
+      "id": "knowdyn",
+      "label": "KNOWDYN",
+      "type": "organization",
+      "url": "https://knowdyn.com"
+    },
+    {
+      "id": "thomas-kuhn-foundation",
+      "label": "Thomas Kuhn Foundation",
+      "type": "organization",
+      "url": "https://thomaskuhnfoundation.org"
+    },
+    {
+      "id": "sciencewerx",
+      "label": "ScienceWerx",
+      "type": "organization",
+      "url": "https://sciencewerx.org"
+    },
+    {
+      "id": "person-schema",
+      "label": "Person schema",
+      "type": "machine_file",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/data/person.schema.json"
+    },
+    {
+      "id": "claims",
+      "label": "Claims",
+      "type": "machine_file",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/data/claims.json"
+    },
+    {
+      "id": "evidence",
+      "label": "Evidence",
+      "type": "machine_file",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/data/evidence.json"
+    },
+    {
+      "id": "books",
+      "label": "Books",
+      "type": "machine_file",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/data/books.json"
+    },
+    {
+      "id": "resources",
+      "label": "Resource catalogue",
+      "type": "machine_file",
+      "url": "https://khalid-saqr.github.io/khalid-saqr/data/resources.json"
     }
   ],
   "edges": [
@@ -117,37 +165,37 @@
     {
       "source": "scholarly",
       "target": "orcid",
-      "relationship": "same_as"
+      "relationship": "has_profile"
     },
     {
       "source": "scholarly",
       "target": "scholar",
-      "relationship": "same_as"
+      "relationship": "has_profile"
     },
     {
       "source": "scholarly",
       "target": "scopus",
-      "relationship": "same_as"
+      "relationship": "has_profile"
     },
     {
       "source": "scholarly",
       "target": "researchgate",
-      "relationship": "same_as"
+      "relationship": "has_profile"
     },
     {
       "source": "builder",
       "target": "github",
-      "relationship": "same_as"
+      "relationship": "has_profile"
     },
     {
       "source": "builder",
       "target": "linkedin",
-      "relationship": "same_as"
+      "relationship": "has_profile"
     },
     {
       "source": "author",
       "target": "amazon-store",
-      "relationship": "same_as"
+      "relationship": "has_profile"
     },
     {
       "source": "machine",
@@ -168,7 +216,50 @@
       "source": "machine",
       "target": "doi-index",
       "relationship": "described_by"
+    },
+    {
+      "source": "khalid-saqr",
+      "target": "knowdyn",
+      "relationship": "founder_of",
+      "source_record": "data/ventures.json"
+    },
+    {
+      "source": "khalid-saqr",
+      "target": "thomas-kuhn-foundation",
+      "relationship": "founder_of",
+      "source_record": "data/ventures.json"
+    },
+    {
+      "source": "khalid-saqr",
+      "target": "sciencewerx",
+      "relationship": "board_advisor_to",
+      "source_record": "data/ventures.json"
+    },
+    {
+      "source": "machine",
+      "target": "person-schema",
+      "relationship": "described_by"
+    },
+    {
+      "source": "machine",
+      "target": "claims",
+      "relationship": "described_by"
+    },
+    {
+      "source": "machine",
+      "target": "evidence",
+      "relationship": "described_by"
+    },
+    {
+      "source": "machine",
+      "target": "books",
+      "relationship": "described_by"
+    },
+    {
+      "source": "machine",
+      "target": "resources",
+      "relationship": "described_by"
     }
   ],
-  "lastUpdated": "2026-06-25"
+  "lastUpdated": "2026-11-27"
 }

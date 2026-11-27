@@ -3,8 +3,8 @@
   "@type": "ProfilePage",
   "@id": "https://khalid-saqr.github.io/khalid-saqr/#profile",
   "url": "https://khalid-saqr.github.io/khalid-saqr/",
-  "name": "Khalid Saqr — canonical public record",
-  "dateModified": "2026-06-25",
+  "name": "Khalid Saqr — canonical public biography",
+  "dateModified": "2026-11-27",
   "mainEntity": {
     "@type": "Person",
     "@id": "https://khalid-saqr.github.io/khalid-saqr/#khalid-saqr",
@@ -16,7 +16,7 @@
       "K.M. Saqr",
       "خالد صقر"
     ],
-    "description": "Khalid Saqr is a researcher-builder working across computational fluid dynamics, biofluid mechanics, high-fidelity modelling and simulation, AI-assisted research systems, and knowledge engineering.",
+    "description": "Khalid Saqr is a systems engineer, computational scientist, author and founder whose public record moves from thermal-fluid systems and turbulence into neurovascular haemodynamics, Bio-CFD, mechanobiology and scientific knowledge systems.",
     "url": "https://khalid-saqr.github.io/khalid-saqr/",
     "sameAs": [
       "https://khalid-saqr.github.io/khalid-saqr/",
@@ -26,9 +26,7 @@
       "https://www.scopus.com/authid/detail.uri?authorId=23567148300",
       "https://www.researchgate.net/profile/Khalid-Saqr",
       "https://www.linkedin.com/in/khalidsaqr",
-      "https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V",
-      "https://www.amazon.com/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=a0affd8d-2585-48fe-977f-fe881bc9f7df",
-      "https://www.amazon.co.jp/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=8878ef28-8b74-4983-8d0a-c6f949d86e1c"
+      "https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V"
     ],
     "identifier": [
       {
@@ -40,20 +38,17 @@
       {
         "@type": "PropertyValue",
         "propertyID": "Google Scholar author ID",
-        "value": "uE0_tFwAAAAJ",
-        "url": "https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate"
+        "value": "uE0_tFwAAAAJ"
       },
       {
         "@type": "PropertyValue",
         "propertyID": "Scopus Author ID",
-        "value": "23567148300",
-        "url": "https://www.scopus.com/authid/detail.uri?authorId=23567148300"
+        "value": "23567148300"
       },
       {
         "@type": "PropertyValue",
         "propertyID": "Amazon Author ID",
-        "value": "B0BQH9115V",
-        "url": "https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V"
+        "value": "B0BQH9115V"
       }
     ],
     "knowsAbout": [
@@ -61,16 +56,34 @@
       "Biofluid mechanics",
       "Neurovascular haemodynamics",
       "Turbulence",
+      "Mechanobiology",
       "High-fidelity modelling and simulation",
-      "AI-assisted research systems",
-      "Knowledge engineering",
       "Scientific publishing",
+      "Knowledge engineering",
+      "Innovation strategy",
       "Intellectual property"
     ],
     "jobTitle": [
       "Researcher-builder",
       "Computational fluid dynamics researcher",
       "Founder"
+    ],
+    "affiliation": [
+      {
+        "@type": "Organization",
+        "name": "KNOWDYN",
+        "url": "https://knowdyn.com"
+      },
+      {
+        "@type": "Organization",
+        "name": "Thomas Kuhn Foundation",
+        "url": "https://thomaskuhnfoundation.org"
+      },
+      {
+        "@type": "Organization",
+        "name": "ScienceWerx",
+        "url": "https://sciencewerx.org"
+      }
     ]
   }
 }

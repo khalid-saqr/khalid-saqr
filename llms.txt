@@ -40,7 +40,7 @@ Aliases: Khalid M. Saqr; Khaled Saqr; K. Saqr; K.M. Saqr; خالد صقر
 
 ## Publication substrate
 
-This public record represents 82 cited studies, 70 DOI-linked records and 5 books. The represented publication range is 2007–2026.
+The biography bibliography selects 82 studies (67 DOI-linked) and five books. The full Scopus export contains 86 records (70 DOI-linked). The narrative links to 41 distinct bibliography entries. The book index contains seven known titles across the public sources; publisher discrepancies remain explicitly marked. The represented study publication range is 2007–2026.
 
 ## Claims policy
 
@@ -50,4 +50,4 @@ Use `data/claims.json` with `data/evidence.json` for claim status. Treat DOI-lin
 
 Do not infer a public direct email address, phone number, home address, date of birth, private GitHub activity, private repositories, medical advice, legal advice, institutional endorsement, governmental affiliation, or official representation beyond the external sources listed here.
 
-Last updated: 2026-07-06
+Last updated: 2026-11-27

@@ -7,8 +7,15 @@
     "evidence": [
       "profile-amazon_author_store",
       "profile-amazon_author_us_legacy",
-      "profile-amazon_author_japan"
-    ]
+      "profile-amazon_author_japan",
+      "book-reference-83"
+    ],
+    "publisher_note": "Existing book record and HTML bibliography disagree; publisher requires verification.",
+    "publisher_as_listed_in_biography": "Independently published",
+    "bibliography_reference": 83,
+    "url": "https://www.amazon.com/dp/B0CMK5QNW5",
+    "asin": "B0CMK5QNW5",
+    "isbn13": "9798853630239"
   },
   {
     "title": "Knowledge Sentinels: Intellectual Property Guide for Academics",
@@ -31,5 +38,56 @@
       "profile-amazon_author_us_legacy",
       "profile-amazon_author_japan"
     ]
+  },
+  {
+    "title": "Self-debug Your Mind: It Takes Courage and AI",
+    "author": "Saqr, Khalid",
+    "year": 2025,
+    "publisher": "Independently published",
+    "evidence": [
+      "book-reference-84"
+    ],
+    "bibliography_reference": 84,
+    "url": "https://www.amazon.com/dp/B0F8NH9ZSS",
+    "asin": "B0F8NH9ZSS",
+    "isbn13": "9798283802404"
+  },
+  {
+    "title": "AllMind Society",
+    "author": "Saqr, Khalid",
+    "year": 2025,
+    "publisher": "KNOWDYN",
+    "evidence": [
+      "book-reference-85"
+    ],
+    "bibliography_reference": 85,
+    "url": "https://www.amazon.com/dp/B0FPD6YWYZ",
+    "asin": "B0FPD6YWYZ"
+  },
+  {
+    "title": "Kinetic Markets: Financial Mechanics of Liquidity, Volatility, and Risk",
+    "author": "Saqr, Khalid",
+    "year": 2025,
+    "publisher": "Independently published",
+    "evidence": [
+      "book-reference-86"
+    ],
+    "bibliography_reference": 86,
+    "url": "https://www.amazon.com/dp/B0GCVNS4QR",
+    "asin": "B0GCVNS4QR",
+    "isbn13": "9798241480088"
+  },
+  {
+    "title": "Adjoint Thinking: How to Think with Machines Without Losing Your Mind",
+    "author": "Saqr, Khalid",
+    "year": 2026,
+    "publisher": "Independently published",
+    "evidence": [
+      "book-reference-87"
+    ],
+    "bibliography_reference": 87,
+    "url": "https://www.amazon.com/dp/B0H3DWP3SP",
+    "asin": "B0H3DWP3SP",
+    "isbn13": "9798199140843"
   }
 ]

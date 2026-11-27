@@ -33,11 +33,13 @@ The page is written for both general readers and specialists. General readers ca
 
 | Measure | Value |
 |---|---:|
-| Studies cited directly on the biography page | 82 |
-| DOI-linked records in the indexed corpus | 70 |
-| Books represented in the extended public record | 5 |
+| Studies represented in the biography bibliography | 82 |
+| DOI-linked records in the full indexed corpus | 70 |
+| Books represented in the biography bibliography | 5 |
 | Publication range represented | 2007–2026 |
 | Main research line | CFD, turbulence, thermal-fluid systems, neurovascular haemodynamics, Bio-CFD, mechanobiology, scientific knowledge infrastructure |
+
+The full Scopus export contains 86 records (70 DOI-linked); the biography selects 82 studies (67 DOI-linked) and five books. Its narrative contains 45 citation links to 41 distinct bibliography entries. The book index includes additional titles.
 
 ## Profile links
 
