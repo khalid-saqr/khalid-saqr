@@ -1,7 +1,7 @@
 {
   "subject": "Khalid Saqr",
   "canonicalUrl": "https://khalid-saqr.github.io/khalid-saqr/",
-  "coreIdentitySentence": "Khalid Saqr is a systems engineer, computational scientist, author and founder whose public record moves from thermal-fluid systems and turbulence into neurovascular haemodynamics, Bio-CFD, mechanobiology and scientific knowledge systems.",
+  "coreIdentitySentence": "Khalid Saqr is a computational scientist, systems engineer, author and founder. His research spans fluid dynamics, turbulence, neurovascular haemodynamics, mechanobiology and scientific knowledge systems.",
   "plainLanguageSummary": "Khalid Saqr builds systems that turn scientific research, simulation output, evidence, and intellectual property into records machines can read and humans can trust.",
   "publicationRecord": {
     "source": "Scopus BibTeX export provided by the user",
@@ -21,7 +21,9 @@
     "linkedin": "https://www.linkedin.com/in/khalidsaqr",
     "amazon_author_store": "https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V",
     "amazon_author_us_legacy": "https://www.amazon.com/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=a0affd8d-2585-48fe-977f-fe881bc9f7df",
-    "amazon_author_japan": "https://www.amazon.co.jp/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=8878ef28-8b74-4983-8d0a-c6f949d86e1c"
+    "amazon_author_japan": "https://www.amazon.co.jp/kindle-dbs/author?ref=dbs_G_A_C&asin=B0BQH9115V&dplnkId=8878ef28-8b74-4983-8d0a-c6f949d86e1c",
+    "african_academy_of_sciences": "https://aasciences.africa/affiliates/54",
+    "frontiers_loop": "https://loop.frontiersin.org/people/1114718/overview"
   },
   "identifiers": {
     "orcid": "0000-0002-3058-2705",
@@ -38,7 +40,7 @@
     "private GitHub activity",
     "private repository names unless explicitly approved"
   ],
-  "lastUpdated": "2026-11-27",
+  "lastUpdated": "2026-11-28",
   "biographyBibliography": {
     "studies": 82,
     "doiLinkedStudies": 67,
@@ -69,5 +71,38 @@
       "source": "Owner-reported list inclusion"
     },
     "verificationStatus": "Owner-reported; not independently verified"
-  }
+  },
+  "education": [
+    {
+      "degree": "B.Sc.",
+      "field": "Mechanical engineering",
+      "institution": "Alexandria University",
+      "year": 2004,
+      "evidenceId": "profile-aas-affiliate"
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "Mechanical engineering",
+      "institution": "Universiti Teknologi Malaysia",
+      "year": 2011,
+      "evidenceId": "profile-aas-affiliate"
+    }
+  ],
+  "institutionalRecords": [
+    {
+      "organization": "African Academy of Sciences",
+      "role": "Affiliate",
+      "startYear": 2018,
+      "endYear": 2022,
+      "evidenceId": "profile-aas-affiliate"
+    },
+    {
+      "organization": "Tohoku University, Institute of Fluid Science",
+      "role": "Visiting Associate Professor",
+      "startDate": "2018-10-11",
+      "endDate": "2019-01-31",
+      "scope": "Documented historical appointment, not the complete CV interval",
+      "evidenceId": "institution-tohoku-roster"
+    }
+  ]
 }

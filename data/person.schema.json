@@ -4,7 +4,7 @@
   "@id": "https://khalid-saqr.github.io/khalid-saqr/#profile",
   "url": "https://khalid-saqr.github.io/khalid-saqr/",
   "name": "Khalid Saqr — canonical public biography",
-  "dateModified": "2026-11-27",
+  "dateModified": "2026-11-28",
   "mainEntity": {
     "@type": "Person",
     "@id": "https://khalid-saqr.github.io/khalid-saqr/#khalid-saqr",
@@ -16,17 +16,18 @@
       "K.M. Saqr",
       "خالد صقر"
     ],
-    "description": "Khalid Saqr is a systems engineer, computational scientist, author and founder whose public record moves from thermal-fluid systems and turbulence into neurovascular haemodynamics, Bio-CFD, mechanobiology and scientific knowledge systems.",
+    "description": "Khalid Saqr is a computational scientist, systems engineer, author and founder. His research spans fluid dynamics, turbulence, neurovascular haemodynamics, mechanobiology and scientific knowledge systems.",
     "url": "https://khalid-saqr.github.io/khalid-saqr/",
     "sameAs": [
-      "https://khalid-saqr.github.io/khalid-saqr/",
       "https://github.com/khalid-saqr",
       "https://orcid.org/0000-0002-3058-2705",
       "https://scholar.google.com/citations?hl=en&user=uE0_tFwAAAAJ&view_op=list_works&sortby=pubdate",
       "https://www.scopus.com/authid/detail.uri?authorId=23567148300",
       "https://www.researchgate.net/profile/Khalid-Saqr",
       "https://www.linkedin.com/in/khalidsaqr",
-      "https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V"
+      "https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V",
+      "https://aasciences.africa/affiliates/54",
+      "https://loop.frontiersin.org/people/1114718/overview"
     ],
     "identifier": [
       {
@@ -84,6 +85,136 @@
         "name": "ScienceWerx",
         "url": "https://sciencewerx.org"
       }
+    ],
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Alexandria University"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Universiti Teknologi Malaysia"
+      }
+    ],
+    "hasOccupation": [
+      {
+        "@type": "Occupation",
+        "name": "Computational scientist"
+      },
+      {
+        "@type": "Occupation",
+        "name": "Systems engineer"
+      },
+      {
+        "@type": "Occupation",
+        "name": "Author"
+      }
+    ],
+    "subjectOf": [
+      {
+        "@type": "WebPage",
+        "name": "African Academy of Sciences affiliate biography",
+        "url": "https://aasciences.africa/affiliates/54"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Tohoku University historical faculty roster",
+        "url": "https://www.ifs.tohoku.ac.jp/mito/eng/organization.html"
+      }
     ]
-  }
+  },
+  "mentions": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1038/s41598-026-47474-x",
+      "name": "A transverse picoNewton force revealed in anisotropic Womersley flow",
+      "url": "https://doi.org/10.1038/s41598-026-47474-x",
+      "datePublished": "2026",
+      "author": {
+        "@id": "https://khalid-saqr.github.io/khalid-saqr/#khalid-saqr"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1038/s41598-026-47474-x"
+      },
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Scientific Reports"
+      }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1063/5.0319995",
+      "name": "Resonant spectral cascade in Womersley flow triggered by arterial geometry",
+      "url": "https://doi.org/10.1063/5.0319995",
+      "datePublished": "2026",
+      "author": {
+        "@id": "https://khalid-saqr.github.io/khalid-saqr/#khalid-saqr"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1063/5.0319995"
+      },
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Physics of Fluids"
+      }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.amazon.com/dp/B0CMK5QNW5",
+      "name": "Innovation Fast Forward: Mining Human Ingenuity for Knowledge Capital",
+      "url": "https://www.amazon.com/dp/B0CMK5QNW5",
+      "datePublished": "2023",
+      "author": {
+        "@id": "https://khalid-saqr.github.io/khalid-saqr/#khalid-saqr"
+      },
+      "isbn": "9798853630239"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.amazon.com/dp/B0F8NH9ZSS",
+      "name": "Self-debug Your Mind: It Takes Courage and AI",
+      "url": "https://www.amazon.com/dp/B0F8NH9ZSS",
+      "datePublished": "2025",
+      "author": {
+        "@id": "https://khalid-saqr.github.io/khalid-saqr/#khalid-saqr"
+      },
+      "isbn": "9798283802404"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.amazon.com/dp/B0FPD6YWYZ",
+      "name": "AllMind Society",
+      "url": "https://www.amazon.com/dp/B0FPD6YWYZ",
+      "datePublished": "2025",
+      "author": {
+        "@id": "https://khalid-saqr.github.io/khalid-saqr/#khalid-saqr"
+      }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.amazon.com/dp/B0GCVNS4QR",
+      "name": "Kinetic Markets: Financial Mechanics of Liquidity, Volatility, and Risk",
+      "url": "https://www.amazon.com/dp/B0GCVNS4QR",
+      "datePublished": "2025",
+      "author": {
+        "@id": "https://khalid-saqr.github.io/khalid-saqr/#khalid-saqr"
+      },
+      "isbn": "9798241480088"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.amazon.com/dp/B0H3DWP3SP",
+      "name": "Adjoint Thinking: How to Think with Machines Without Losing Your Mind",
+      "url": "https://www.amazon.com/dp/B0H3DWP3SP",
+      "datePublished": "2026",
+      "author": {
+        "@id": "https://khalid-saqr.github.io/khalid-saqr/#khalid-saqr"
+      },
+      "isbn": "9798199140843"
+    }
+  ]
 }

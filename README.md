@@ -51,6 +51,8 @@ The full Scopus export contains 86 records (70 DOI-linked); the biography select
 [Amazon Author](https://www.amazon.com/stores/Khalid-Saqr/author/B0BQH9115V) ·
 [GitHub](https://github.com/khalid-saqr)
 
+Institutional corroboration: [African Academy of Sciences](https://aasciences.africa/affiliates/54) · [Frontiers Loop](https://loop.frontiersin.org/people/1114718/overview) · [Tohoku University historical faculty roster](https://www.ifs.tohoku.ac.jp/mito/eng/organization.html).
+
 ## Machine-readable files
 
 These files describe the same public record in forms that search engines, crawlers and AI systems can read:

@@ -11,7 +11,7 @@ This file reflects `data/claims.json`. Evidence pointers refer to `data/evidence
 
 Khalid Saqr maintains a public identity graph across scholarly, builder, author, and machine-readable records.
 
-Evidence records: 10.
+Evidence records: 12.
 
 Use these URLs as identity disambiguation anchors; do not infer direct contact from them.
 
@@ -91,6 +91,39 @@ The autobiography frames the career as a movement from physical anomaly to syste
 Evidence records: 0. Depends on: claim-fluid-dynamics-anomaly, claim-bio-cfd-knowdyn, claim-machine-readable-public-record.
 
 This is an interpretive narrative spine; verify factual claims through their cited evidence records.
+
+## claim-academic-qualifications
+
+**Status:** institutional-source-supported  
+**Category:** education
+
+Khalid Saqr earned a B.Sc. in mechanical engineering from Alexandria University in 2004 and a Ph.D. in mechanical engineering from Universiti Teknologi Malaysia in 2011.
+
+Evidence records: 1.
+
+Qualifications and years documented by the African Academy of Sciences biography.
+
+## claim-aas-affiliateship
+
+**Status:** institutional-source-supported  
+**Category:** academic_role
+
+Khalid Saqr was an affiliate of the African Academy of Sciences from 2018 to 2022.
+
+Evidence records: 1.
+
+Historical affiliateship, not a fellowship or current membership claim.
+
+## claim-tohoku-historical-appointment
+
+**Status:** institutional-source-supported  
+**Category:** academic_role
+
+Tohoku University documents a visiting associate professorship for Khalid M. Saqr from 11 October 2018 to 31 January 2019.
+
+Evidence records: 1.
+
+This institutional record corroborates a specific appointment, not the full interval in the public CV.
 
 ## Historical source notes (not additional validated claims)
 

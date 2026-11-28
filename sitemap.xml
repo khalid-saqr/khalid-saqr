@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/</loc><lastmod>2026-11-27</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/llms.txt</loc><lastmod>2026-11-27</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/facts.json</loc><lastmod>2026-11-27</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/person.schema.json</loc><lastmod>2026-11-27</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/identity-graph.json</loc><lastmod>2026-11-27</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/claims.json</loc><lastmod>2026-11-27</lastmod></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/evidence.json</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/</loc><lastmod>2026-11-28</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/llms.txt</loc><lastmod>2026-11-28</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/facts.json</loc><lastmod>2026-11-28</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/person.schema.json</loc><lastmod>2026-11-28</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/identity-graph.json</loc><lastmod>2026-11-28</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/claims.json</loc><lastmod>2026-11-28</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/evidence.json</loc><lastmod>2026-11-28</lastmod></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/publications.json</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/doi-index.json</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/books.json</loc><lastmod>2026-11-27</lastmod></url>
@@ -15,14 +15,14 @@
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/publications.bib</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/aliases.json</loc></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/identifiers.json</loc></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/external-profiles.json</loc></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/profile.json</loc></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/external-profiles.json</loc><lastmod>2026-11-28</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/profile.json</loc><lastmod>2026-11-28</lastmod></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/roles.json</loc></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/editorial-roles.json</loc></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/ventures.json</loc></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/projects.json</loc></url>
   <url><loc>https://khalid-saqr.github.io/khalid-saqr/data/resources.json</loc></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/claims.md</loc></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/evidence-ledger.md</loc></url>
-  <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/llms.md</loc></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/claims.md</loc><lastmod>2026-11-28</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/evidence-ledger.md</loc><lastmod>2026-11-28</lastmod></url>
+  <url><loc>https://khalid-saqr.github.io/khalid-saqr/content/llms.md</loc><lastmod>2026-11-28</lastmod></url>
 </urlset>

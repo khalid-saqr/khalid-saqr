@@ -1842,5 +1842,43 @@
     "url": "https://www.amazon.com/dp/B0H3DWP3SP",
     "evidence_level": "bibliographic_link_not_independently_verified",
     "supports_claim_ids": []
+  },
+  {
+    "id": "profile-aas-affiliate",
+    "kind": "institutional_profile",
+    "label": "African Academy of Sciences affiliate biography",
+    "url": "https://aasciences.africa/affiliates/54",
+    "evidence_level": "institutional-source-inspected",
+    "supports_claim_ids": [
+      "claim-public-identity-graph",
+      "claim-academic-qualifications",
+      "claim-aas-affiliateship"
+    ],
+    "checked_on": "2026-11-28",
+    "scope": "Mechanical engineering degrees, research specialization and 2018–2022 affiliateship."
+  },
+  {
+    "id": "profile-frontiers-loop",
+    "kind": "publisher_profile",
+    "label": "Frontiers Loop researcher profile",
+    "url": "https://loop.frontiersin.org/people/1114718/overview",
+    "evidence_level": "publisher-hosted-profile-inspected",
+    "supports_claim_ids": [
+      "claim-public-identity-graph"
+    ],
+    "checked_on": "2026-11-28",
+    "scope": "Identity and scholarly profile; affiliations may be self-reported or historical."
+  },
+  {
+    "id": "institution-tohoku-roster",
+    "kind": "institutional_record",
+    "label": "Tohoku University Institute of Fluid Science historical roster",
+    "url": "https://www.ifs.tohoku.ac.jp/mito/eng/organization.html",
+    "evidence_level": "institutional-source-inspected",
+    "supports_claim_ids": [
+      "claim-tohoku-historical-appointment"
+    ],
+    "checked_on": "2026-11-28",
+    "scope": "Visiting Associate Professor, 2018-10-11 to 2019-01-31 only; does not establish the entire CV appointment interval."
   }
 ]

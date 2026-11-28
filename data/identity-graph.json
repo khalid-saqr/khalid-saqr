@@ -139,6 +139,24 @@
       "label": "Resource catalogue",
       "type": "machine_file",
       "url": "https://khalid-saqr.github.io/khalid-saqr/data/resources.json"
+    },
+    {
+      "id": "aas-affiliate",
+      "label": "African Academy of Sciences affiliate profile",
+      "url": "https://aasciences.africa/affiliates/54",
+      "type": "profile"
+    },
+    {
+      "id": "frontiers-loop",
+      "label": "Frontiers Loop researcher profile",
+      "url": "https://loop.frontiersin.org/people/1114718/overview",
+      "type": "profile"
+    },
+    {
+      "id": "tohoku-roster",
+      "label": "Tohoku University historical faculty roster",
+      "url": "https://www.ifs.tohoku.ac.jp/mito/eng/organization.html",
+      "type": "institutional_record"
     }
   ],
   "edges": [
@@ -259,7 +277,25 @@
       "source": "machine",
       "target": "resources",
       "relationship": "described_by"
+    },
+    {
+      "source": "khalid-saqr",
+      "target": "aas-affiliate",
+      "relationship": "has_profile",
+      "evidence_id": "profile-aas-affiliate"
+    },
+    {
+      "source": "khalid-saqr",
+      "target": "frontiers-loop",
+      "relationship": "has_profile",
+      "evidence_id": "profile-frontiers-loop"
+    },
+    {
+      "source": "khalid-saqr",
+      "target": "tohoku-roster",
+      "relationship": "documented_by",
+      "evidence_id": "institution-tohoku-roster"
     }
   ],
-  "lastUpdated": "2026-11-27"
+  "lastUpdated": "2026-11-28"
 }
